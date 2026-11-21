@@ -153,7 +153,7 @@ updateGameFilters();
   const league=ARCHIVE_LEAGUE;
   const $a=id=>document.getElementById(id);
   const safe=u=>{try{const v=new URL(u);return v.protocol==="https:"?v.href:null}catch{return null}};
-  const seasonOf=date=>{const year=Number(String(date).slice(0,4)),month=Number(String(date).slice(5,7));if(!year)return "Unknown";return league==="NBA"||league==="WNBA"||league==="NHL"||league==="NFL"?(month>=7?year:year-1)+"–"+String((month>=7?year+1:year)%100).padStart(2,"0"):String(year)};
+  const seasonOf=date=>{const year=Number(String(date).slice(0,4)),month=Number(String(date).slice(5,7));if(!year)return "Unknown";return league==="NBA"||league==="NHL"||league==="NFL"?(month>=7?year:year-1)+"–"+String((month>=7?year+1:year)%100).padStart(2,"0"):String(year)};
   const reportLinks=g=>{const fields=[["pdf_url","Official gamebook"],["gs_url","Game Summary"],["es_url","Event Summary"],["box_url","Box score"],["plays_url","Play-by-play"],["play_url","Play-by-play"]];return fields.map(([key,label])=>({url:safe(g[key]),label})).filter(x=>x.url)};
   let records=[];
   function renderArchive(){
