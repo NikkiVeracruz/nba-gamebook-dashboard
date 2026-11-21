@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 19, 2026 – Nov 20, 2026 (ET)",
-  "updated_at": "2026-11-21T04:41:43.726680+00:00",
+  "updated_at": "2026-11-21T05:36:17.832503+00:00",
   "games": [
     {
       "id": "401910019",
@@ -68,13 +68,15 @@
       "id": "401909311",
       "date": "2026-11-20",
       "label": "Phoenix Suns @ Utah Jazz",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_PHXUTA_book.pdf"
     },
     {
       "id": "401909313",
       "date": "2026-11-20",
       "label": "Sacramento Kings @ Los Angeles Lakers",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_SACLAL_book.pdf"
     },
     {
       "id": "401909308",
