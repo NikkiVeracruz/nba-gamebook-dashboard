@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 19, 2026 – Nov 20, 2026 (ET)",
-  "updated_at": "2026-11-21T05:36:17.832503+00:00",
+  "updated_at": "2026-11-21T06:37:56.664019+00:00",
   "games": [
     {
       "id": "401910019",
@@ -41,7 +41,8 @@
       "id": "401909312",
       "date": "2026-11-20",
       "label": "Houston Rockets @ Denver Nuggets",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_HOUDEN_book.pdf"
     },
     {
       "id": "401909307",
