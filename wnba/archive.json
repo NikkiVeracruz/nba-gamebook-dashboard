@@ -1,4 +1,1589 @@
 {
-  "updated_at": "2026-11-21T23:04:02.360952+00:00",
-  "games": []
+  "updated_at": "2026-11-21T23:06:13.467496+00:00",
+  "games": [
+    {
+      "id": "401736358",
+      "date": "2025-08-28",
+      "label": "Washington Mystics @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736359",
+      "date": "2025-08-28",
+      "label": "Seattle Storm @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736360",
+      "date": "2025-08-28",
+      "label": "Chicago Sky @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736356",
+      "date": "2025-08-27",
+      "label": "Las Vegas Aces @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736357",
+      "date": "2025-08-27",
+      "label": "Connecticut Sun @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736354",
+      "date": "2025-08-26",
+      "label": "Seattle Storm @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736355",
+      "date": "2025-08-26",
+      "label": "Phoenix Mercury @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736353",
+      "date": "2025-08-25",
+      "label": "Las Vegas Aces @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736352",
+      "date": "2025-08-25",
+      "label": "Connecticut Sun @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736349",
+      "date": "2025-08-24",
+      "label": "Seattle Storm @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736351",
+      "date": "2025-08-24",
+      "label": "Indiana Fever @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736350",
+      "date": "2025-08-24",
+      "label": "Golden State Valkyries @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736346",
+      "date": "2025-08-23",
+      "label": "New York Liberty @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736347",
+      "date": "2025-08-23",
+      "label": "Las Vegas Aces @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736348",
+      "date": "2025-08-23",
+      "label": "Connecticut Sun @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736344",
+      "date": "2025-08-22",
+      "label": "Seattle Storm @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736343",
+      "date": "2025-08-22",
+      "label": "Minnesota Lynx @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736345",
+      "date": "2025-08-22",
+      "label": "Golden State Valkyries @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736339",
+      "date": "2025-08-21",
+      "label": "Washington Mystics @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736342",
+      "date": "2025-08-21",
+      "label": "Phoenix Mercury @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736341",
+      "date": "2025-08-21",
+      "label": "Minnesota Lynx @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736340",
+      "date": "2025-08-21",
+      "label": "Chicago Sky @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736338",
+      "date": "2025-08-20",
+      "label": "Dallas Wings @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736335",
+      "date": "2025-08-19",
+      "label": "Seattle Storm @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736337",
+      "date": "2025-08-19",
+      "label": "Phoenix Mercury @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736333",
+      "date": "2025-08-19",
+      "label": "Minnesota Lynx @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736334",
+      "date": "2025-08-19",
+      "label": "Connecticut Sun @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736336",
+      "date": "2025-08-19",
+      "label": "Atlanta Dream @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736331",
+      "date": "2025-08-17",
+      "label": "Phoenix Mercury @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736328",
+      "date": "2025-08-17",
+      "label": "Los Angeles Sparks @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736329",
+      "date": "2025-08-17",
+      "label": "Indiana Fever @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736330",
+      "date": "2025-08-17",
+      "label": "Dallas Wings @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736332",
+      "date": "2025-08-17",
+      "label": "Atlanta Dream @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736327",
+      "date": "2025-08-16",
+      "label": "New York Liberty @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736322",
+      "date": "2025-08-15",
+      "label": "Washington Mystics @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736325",
+      "date": "2025-08-15",
+      "label": "Seattle Storm @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736324",
+      "date": "2025-08-15",
+      "label": "Los Angeles Sparks @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736326",
+      "date": "2025-08-15",
+      "label": "Las Vegas Aces @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736323",
+      "date": "2025-08-15",
+      "label": "Golden State Valkyries @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736320",
+      "date": "2025-08-13",
+      "label": "New York Liberty @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736319",
+      "date": "2025-08-13",
+      "label": "Golden State Valkyries @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736318",
+      "date": "2025-08-13",
+      "label": "Chicago Sky @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736321",
+      "date": "2025-08-13",
+      "label": "Atlanta Dream @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736317",
+      "date": "2025-08-12",
+      "label": "New York Liberty @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736316",
+      "date": "2025-08-12",
+      "label": "Dallas Wings @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736315",
+      "date": "2025-08-11",
+      "label": "Connecticut Sun @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736311",
+      "date": "2025-08-10",
+      "label": "Washington Mystics @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736312",
+      "date": "2025-08-10",
+      "label": "Seattle Storm @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736310",
+      "date": "2025-08-10",
+      "label": "Minnesota Lynx @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736314",
+      "date": "2025-08-10",
+      "label": "Connecticut Sun @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736313",
+      "date": "2025-08-10",
+      "label": "Atlanta Dream @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736308",
+      "date": "2025-08-09",
+      "label": "Los Angeles Sparks @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736309",
+      "date": "2025-08-09",
+      "label": "Chicago Sky @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736306",
+      "date": "2025-08-08",
+      "label": "Washington Mystics @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736307",
+      "date": "2025-08-08",
+      "label": "Seattle Storm @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736305",
+      "date": "2025-08-08",
+      "label": "New York Liberty @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736304",
+      "date": "2025-08-07",
+      "label": "Indiana Fever @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736303",
+      "date": "2025-08-07",
+      "label": "Connecticut Sun @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736302",
+      "date": "2025-08-07",
+      "label": "Atlanta Dream @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736301",
+      "date": "2025-08-06",
+      "label": "Las Vegas Aces @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736297",
+      "date": "2025-08-05",
+      "label": "Washington Mystics @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736300",
+      "date": "2025-08-05",
+      "label": "Minnesota Lynx @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736298",
+      "date": "2025-08-05",
+      "label": "Indiana Fever @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736296",
+      "date": "2025-08-05",
+      "label": "Dallas Wings @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736299",
+      "date": "2025-08-05",
+      "label": "Connecticut Sun @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736291",
+      "date": "2025-08-03",
+      "label": "Washington Mystics @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736293",
+      "date": "2025-08-03",
+      "label": "Phoenix Mercury @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736292",
+      "date": "2025-08-03",
+      "label": "New York Liberty @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736295",
+      "date": "2025-08-03",
+      "label": "Indiana Fever @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736294",
+      "date": "2025-08-03",
+      "label": "Golden State Valkyries @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736290",
+      "date": "2025-08-02",
+      "label": "Minnesota Lynx @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736285",
+      "date": "2025-08-01",
+      "label": "Phoenix Mercury @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736286",
+      "date": "2025-08-01",
+      "label": "New York Liberty @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736289",
+      "date": "2025-08-01",
+      "label": "Los Angeles Sparks @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736288",
+      "date": "2025-08-01",
+      "label": "Indiana Fever @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736287",
+      "date": "2025-08-01",
+      "label": "Golden State Valkyries @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736284",
+      "date": "2025-07-31",
+      "label": "Golden State Valkyries @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736281",
+      "date": "2025-07-30",
+      "label": "Phoenix Mercury @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736283",
+      "date": "2025-07-30",
+      "label": "New York Liberty @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736282",
+      "date": "2025-07-30",
+      "label": "Atlanta Dream @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736280",
+      "date": "2025-07-29",
+      "label": "Las Vegas Aces @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736278",
+      "date": "2025-07-29",
+      "label": "Golden State Valkyries @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736279",
+      "date": "2025-07-29",
+      "label": "Chicago Sky @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736276",
+      "date": "2025-07-28",
+      "label": "Seattle Storm @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736277",
+      "date": "2025-07-28",
+      "label": "New York Liberty @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736274",
+      "date": "2025-07-27",
+      "label": "Phoenix Mercury @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736273",
+      "date": "2025-07-27",
+      "label": "Las Vegas Aces @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736269",
+      "date": "2025-07-27",
+      "label": "Indiana Fever @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736272",
+      "date": "2025-07-27",
+      "label": "Golden State Valkyries @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736275",
+      "date": "2025-07-27",
+      "label": "Atlanta Dream @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736271",
+      "date": "2025-07-26",
+      "label": "Seattle Storm @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736270",
+      "date": "2025-07-26",
+      "label": "Los Angeles Sparks @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736266",
+      "date": "2025-07-25",
+      "label": "Phoenix Mercury @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736267",
+      "date": "2025-07-25",
+      "label": "Las Vegas Aces @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736268",
+      "date": "2025-07-25",
+      "label": "Dallas Wings @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736265",
+      "date": "2025-07-24",
+      "label": "Seattle Storm @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736263",
+      "date": "2025-07-24",
+      "label": "Los Angeles Sparks @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736264",
+      "date": "2025-07-24",
+      "label": "Las Vegas Aces @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736262",
+      "date": "2025-07-23",
+      "label": "Atlanta Dream @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736257",
+      "date": "2025-07-22",
+      "label": "Los Angeles Sparks @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736258",
+      "date": "2025-07-22",
+      "label": "Indiana Fever @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736261",
+      "date": "2025-07-22",
+      "label": "Dallas Wings @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736259",
+      "date": "2025-07-22",
+      "label": "Chicago Sky @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736260",
+      "date": "2025-07-22",
+      "label": "Atlanta Dream @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401781604",
+      "date": "2025-07-19",
+      "label": "TEAM COLLIER @ TEAM CLARK",
+      "status": "Final"
+    },
+    {
+      "id": "401736253",
+      "date": "2025-07-16",
+      "label": "Phoenix Mercury @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736256",
+      "date": "2025-07-16",
+      "label": "Las Vegas Aces @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736255",
+      "date": "2025-07-16",
+      "label": "Indiana Fever @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736254",
+      "date": "2025-07-16",
+      "label": "Golden State Valkyries @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736252",
+      "date": "2025-07-16",
+      "label": "Atlanta Dream @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736251",
+      "date": "2025-07-15",
+      "label": "Washington Mystics @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736250",
+      "date": "2025-07-15",
+      "label": "Indiana Fever @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736249",
+      "date": "2025-07-14",
+      "label": "Phoenix Mercury @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736248",
+      "date": "2025-07-14",
+      "label": "Minnesota Lynx @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736247",
+      "date": "2025-07-13",
+      "label": "Washington Mystics @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736244",
+      "date": "2025-07-13",
+      "label": "Dallas Wings @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736246",
+      "date": "2025-07-13",
+      "label": "Connecticut Sun @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736245",
+      "date": "2025-07-13",
+      "label": "Atlanta Dream @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736242",
+      "date": "2025-07-12",
+      "label": "Minnesota Lynx @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736243",
+      "date": "2025-07-12",
+      "label": "Golden State Valkyries @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736241",
+      "date": "2025-07-11",
+      "label": "Connecticut Sun @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736240",
+      "date": "2025-07-11",
+      "label": "Atlanta Dream @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736238",
+      "date": "2025-07-10",
+      "label": "Minnesota Lynx @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736239",
+      "date": "2025-07-10",
+      "label": "Las Vegas Aces @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736234",
+      "date": "2025-07-09",
+      "label": "Seattle Storm @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736236",
+      "date": "2025-07-09",
+      "label": "Minnesota Lynx @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736235",
+      "date": "2025-07-09",
+      "label": "Golden State Valkyries @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736237",
+      "date": "2025-07-09",
+      "label": "Dallas Wings @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736233",
+      "date": "2025-07-08",
+      "label": "Las Vegas Aces @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736232",
+      "date": "2025-07-08",
+      "label": "Chicago Sky @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736230",
+      "date": "2025-07-07",
+      "label": "Golden State Valkyries @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736231",
+      "date": "2025-07-07",
+      "label": "Dallas Wings @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736228",
+      "date": "2025-07-06",
+      "label": "Seattle Storm @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736227",
+      "date": "2025-07-06",
+      "label": "Las Vegas Aces @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736229",
+      "date": "2025-07-06",
+      "label": "Chicago Sky @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736225",
+      "date": "2025-07-05",
+      "label": "Los Angeles Sparks @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736226",
+      "date": "2025-07-05",
+      "label": "Golden State Valkyries @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736224",
+      "date": "2025-07-03",
+      "label": "Washington Mystics @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736222",
+      "date": "2025-07-03",
+      "label": "Seattle Storm @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736223",
+      "date": "2025-07-03",
+      "label": "Phoenix Mercury @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736221",
+      "date": "2025-07-03",
+      "label": "Los Angeles Sparks @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736220",
+      "date": "2025-07-03",
+      "label": "Las Vegas Aces @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736430",
+      "date": "2025-07-01",
+      "label": "Indiana Fever @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736219",
+      "date": "2025-06-29",
+      "label": "Seattle Storm @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736215",
+      "date": "2025-06-29",
+      "label": "New York Liberty @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736217",
+      "date": "2025-06-29",
+      "label": "Las Vegas Aces @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736218",
+      "date": "2025-06-29",
+      "label": "Connecticut Sun @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736216",
+      "date": "2025-06-29",
+      "label": "Chicago Sky @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736214",
+      "date": "2025-06-28",
+      "label": "Washington Mystics @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736212",
+      "date": "2025-06-27",
+      "label": "New York Liberty @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736209",
+      "date": "2025-06-27",
+      "label": "Minnesota Lynx @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736210",
+      "date": "2025-06-27",
+      "label": "Indiana Fever @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736213",
+      "date": "2025-06-27",
+      "label": "Connecticut Sun @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736211",
+      "date": "2025-06-27",
+      "label": "Chicago Sky @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736208",
+      "date": "2025-06-26",
+      "label": "Washington Mystics @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736207",
+      "date": "2025-06-26",
+      "label": "Los Angeles Sparks @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736205",
+      "date": "2025-06-25",
+      "label": "New York Liberty @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736206",
+      "date": "2025-06-25",
+      "label": "Connecticut Sun @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736201",
+      "date": "2025-06-24",
+      "label": "Minnesota Lynx @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736202",
+      "date": "2025-06-24",
+      "label": "Los Angeles Sparks @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736204",
+      "date": "2025-06-24",
+      "label": "Indiana Fever @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736203",
+      "date": "2025-06-24",
+      "label": "Atlanta Dream @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736199",
+      "date": "2025-06-22",
+      "label": "New York Liberty @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736198",
+      "date": "2025-06-22",
+      "label": "Indiana Fever @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736197",
+      "date": "2025-06-22",
+      "label": "Dallas Wings @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736200",
+      "date": "2025-06-22",
+      "label": "Connecticut Sun @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736196",
+      "date": "2025-06-22",
+      "label": "Chicago Sky @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736194",
+      "date": "2025-06-21",
+      "label": "Phoenix Mercury @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736195",
+      "date": "2025-06-21",
+      "label": "Los Angeles Sparks @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736191",
+      "date": "2025-06-20",
+      "label": "Washington Mystics @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736193",
+      "date": "2025-06-20",
+      "label": "Seattle Storm @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736192",
+      "date": "2025-06-20",
+      "label": "Dallas Wings @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736189",
+      "date": "2025-06-19",
+      "label": "Phoenix Mercury @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736190",
+      "date": "2025-06-19",
+      "label": "Indiana Fever @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736188",
+      "date": "2025-06-18",
+      "label": "Phoenix Mercury @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736184",
+      "date": "2025-06-17",
+      "label": "Washington Mystics @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736187",
+      "date": "2025-06-17",
+      "label": "Seattle Storm @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736186",
+      "date": "2025-06-17",
+      "label": "Las Vegas Aces @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736185",
+      "date": "2025-06-17",
+      "label": "Golden State Valkyries @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736182",
+      "date": "2025-06-17",
+      "label": "Connecticut Sun @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736183",
+      "date": "2025-06-17",
+      "label": "Atlanta Dream @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736181",
+      "date": "2025-06-15",
+      "label": "Phoenix Mercury @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736179",
+      "date": "2025-06-15",
+      "label": "Chicago Sky @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736180",
+      "date": "2025-06-15",
+      "label": "Atlanta Dream @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736178",
+      "date": "2025-06-14",
+      "label": "Seattle Storm @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736177",
+      "date": "2025-06-14",
+      "label": "New York Liberty @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736176",
+      "date": "2025-06-14",
+      "label": "Los Angeles Sparks @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736175",
+      "date": "2025-06-13",
+      "label": "Dallas Wings @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736174",
+      "date": "2025-06-13",
+      "label": "Chicago Sky @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736173",
+      "date": "2025-06-11",
+      "label": "Minnesota Lynx @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736171",
+      "date": "2025-06-11",
+      "label": "Los Angeles Sparks @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736172",
+      "date": "2025-06-11",
+      "label": "Dallas Wings @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736169",
+      "date": "2025-06-10",
+      "label": "Indiana Fever @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736170",
+      "date": "2025-06-10",
+      "label": "Chicago Sky @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736168",
+      "date": "2025-06-09",
+      "label": "Golden State Valkyries @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736167",
+      "date": "2025-06-08",
+      "label": "Minnesota Lynx @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736166",
+      "date": "2025-06-08",
+      "label": "Connecticut Sun @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736165",
+      "date": "2025-06-07",
+      "label": "Seattle Storm @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736163",
+      "date": "2025-06-07",
+      "label": "Las Vegas Aces @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736164",
+      "date": "2025-06-07",
+      "label": "Indiana Fever @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736162",
+      "date": "2025-06-06",
+      "label": "Los Angeles Sparks @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736161",
+      "date": "2025-06-06",
+      "label": "Atlanta Dream @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736159",
+      "date": "2025-06-05",
+      "label": "New York Liberty @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736160",
+      "date": "2025-06-05",
+      "label": "Golden State Valkyries @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736156",
+      "date": "2025-06-03",
+      "label": "Washington Mystics @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736157",
+      "date": "2025-06-03",
+      "label": "Phoenix Mercury @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736158",
+      "date": "2025-06-03",
+      "label": "Dallas Wings @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736153",
+      "date": "2025-06-01",
+      "label": "Phoenix Mercury @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736155",
+      "date": "2025-06-01",
+      "label": "Minnesota Lynx @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736154",
+      "date": "2025-06-01",
+      "label": "Las Vegas Aces @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736152",
+      "date": "2025-06-01",
+      "label": "Connecticut Sun @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736151",
+      "date": "2025-05-31",
+      "label": "Chicago Sky @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736147",
+      "date": "2025-05-30",
+      "label": "New York Liberty @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736149",
+      "date": "2025-05-30",
+      "label": "Minnesota Lynx @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736148",
+      "date": "2025-05-30",
+      "label": "Los Angeles Sparks @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736146",
+      "date": "2025-05-30",
+      "label": "Connecticut Sun @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736150",
+      "date": "2025-05-30",
+      "label": "Atlanta Dream @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736144",
+      "date": "2025-05-29",
+      "label": "Golden State Valkyries @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736145",
+      "date": "2025-05-29",
+      "label": "Dallas Wings @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736143",
+      "date": "2025-05-28",
+      "label": "Indiana Fever @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401736140",
+      "date": "2025-05-27",
+      "label": "Seattle Storm @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736139",
+      "date": "2025-05-27",
+      "label": "Golden State Valkyries @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736138",
+      "date": "2025-05-27",
+      "label": "Dallas Wings @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736142",
+      "date": "2025-05-27",
+      "label": "Chicago Sky @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736141",
+      "date": "2025-05-27",
+      "label": "Atlanta Dream @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736136",
+      "date": "2025-05-25",
+      "label": "Washington Mystics @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736137",
+      "date": "2025-05-25",
+      "label": "Las Vegas Aces @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736134",
+      "date": "2025-05-25",
+      "label": "Connecticut Sun @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736135",
+      "date": "2025-05-25",
+      "label": "Chicago Sky @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736132",
+      "date": "2025-05-24",
+      "label": "New York Liberty @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736133",
+      "date": "2025-05-24",
+      "label": "Dallas Wings @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736129",
+      "date": "2025-05-23",
+      "label": "Washington Mystics @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401736131",
+      "date": "2025-05-23",
+      "label": "Phoenix Mercury @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401736130",
+      "date": "2025-05-23",
+      "label": "Golden State Valkyries @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736128",
+      "date": "2025-05-23",
+      "label": "Connecticut Sun @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736127",
+      "date": "2025-05-22",
+      "label": "New York Liberty @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401736126",
+      "date": "2025-05-22",
+      "label": "Indiana Fever @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401736124",
+      "date": "2025-05-21",
+      "label": "Washington Mystics @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736125",
+      "date": "2025-05-21",
+      "label": "Los Angeles Sparks @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736123",
+      "date": "2025-05-21",
+      "label": "Dallas Wings @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401736121",
+      "date": "2025-05-20",
+      "label": "Las Vegas Aces @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736122",
+      "date": "2025-05-20",
+      "label": "Atlanta Dream @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736120",
+      "date": "2025-05-19",
+      "label": "Seattle Storm @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736118",
+      "date": "2025-05-18",
+      "label": "Washington Mystics @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401736119",
+      "date": "2025-05-18",
+      "label": "Minnesota Lynx @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401736117",
+      "date": "2025-05-17",
+      "label": "Seattle Storm @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401736116",
+      "date": "2025-05-17",
+      "label": "Las Vegas Aces @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401736115",
+      "date": "2025-05-17",
+      "label": "Chicago Sky @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401736113",
+      "date": "2025-05-16",
+      "label": "Minnesota Lynx @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401736114",
+      "date": "2025-05-16",
+      "label": "Los Angeles Sparks @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401736112",
+      "date": "2025-05-16",
+      "label": "Atlanta Dream @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401765029",
+      "date": "2025-05-12",
+      "label": "Toyota Antelopes @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401761352",
+      "date": "2025-05-11",
+      "label": "Golden State Valkyries @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401761350",
+      "date": "2025-05-10",
+      "label": "Toyota Antelopes @ Dallas Wings",
+      "status": "Final"
+    },
+    {
+      "id": "401761345",
+      "date": "2025-05-10",
+      "label": "Indiana Fever @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401761348",
+      "date": "2025-05-10",
+      "label": "Chicago Sky @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401765028",
+      "date": "2025-05-09",
+      "label": "Connecticut Sun @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401761344",
+      "date": "2025-05-07",
+      "label": "Atlanta Dream @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401761355",
+      "date": "2025-05-06",
+      "label": "Phoenix Mercury @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401761347",
+      "date": "2025-05-06",
+      "label": "Minnesota Lynx @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401761351",
+      "date": "2025-05-06",
+      "label": "Los Angeles Sparks @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401761349",
+      "date": "2025-05-04",
+      "label": "Connecticut Sun @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401761353",
+      "date": "2025-05-03",
+      "label": "Washington Mystics @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401761558",
+      "date": "2025-05-02",
+      "label": "Dallas Wings @ Las Vegas Aces",
+      "status": "Final"
+    }
+  ]
 }
