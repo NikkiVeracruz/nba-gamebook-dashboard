@@ -83,6 +83,15 @@ def games_on(session: requests.Session, day) -> list[dict]:
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    # Seasonal guard: keep the website live but avoid report scraping in the offseason.
+    # Broad calendar boundaries allow preseason and late postseason games; the
+    # schedule source itself determines which games actually appear.
+    if datetime.now(ET).month not in [9,10,11,12,1,2,3,4,5,6,7]:
+        now = datetime.now(timezone.utc).isoformat()
+        OUTPUT.write_text(json.dumps({"window_label": "Offseason", "updated_at": now, "offseason": True, "games": []}, indent=2) + "\n")
+        LOG.info("Offseason: skipping gamebook checks")
+        return
+
     # Reporting day changes at 3:00 AM Eastern, including DST.
     today = (datetime.now(ET) - timedelta(hours=3)).date()
     days = [today - timedelta(days=1), today]
