@@ -1,5 +1,94 @@
 {
-  "window_label": "Awaiting first update",
-  "updated_at": null,
-  "games": []
+  "window_label": "Nov 19, 2026 – Nov 20, 2026 (ET)",
+  "updated_at": "2026-11-21T04:41:43.726680+00:00",
+  "games": [
+    {
+      "id": "401910019",
+      "date": "2026-11-19",
+      "label": "Golden State Warriors @ Memphis Grizzlies",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261119/20261119_GSWMEM_book.pdf"
+    },
+    {
+      "id": "401910022",
+      "date": "2026-11-19",
+      "label": "LA Clippers @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261119/20261119_LACSAS_book.pdf"
+    },
+    {
+      "id": "401910021",
+      "date": "2026-11-19",
+      "label": "New York Knicks @ Minnesota Timberwolves",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261119/20261119_NYKMIN_book.pdf"
+    },
+    {
+      "id": "401910020",
+      "date": "2026-11-19",
+      "label": "Portland Trail Blazers @ Milwaukee Bucks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261119/20261119_PORMIL_book.pdf"
+    },
+    {
+      "id": "401909305",
+      "date": "2026-11-20",
+      "label": "Charlotte Hornets @ Atlanta Hawks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_CHAATL_book.pdf"
+    },
+    {
+      "id": "401909312",
+      "date": "2026-11-20",
+      "label": "Houston Rockets @ Denver Nuggets",
+      "status": "In Progress"
+    },
+    {
+      "id": "401909307",
+      "date": "2026-11-20",
+      "label": "Indiana Pacers @ Cleveland Cavaliers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_INDCLE_book.pdf"
+    },
+    {
+      "id": "401909310",
+      "date": "2026-11-20",
+      "label": "New Orleans Pelicans @ Oklahoma City Thunder",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_NOPOKC_book.pdf"
+    },
+    {
+      "id": "401909306",
+      "date": "2026-11-20",
+      "label": "Orlando Magic @ Brooklyn Nets",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_ORLBKN_book.pdf"
+    },
+    {
+      "id": "401909311",
+      "date": "2026-11-20",
+      "label": "Phoenix Suns @ Utah Jazz",
+      "status": "In Progress"
+    },
+    {
+      "id": "401909313",
+      "date": "2026-11-20",
+      "label": "Sacramento Kings @ Los Angeles Lakers",
+      "status": "In Progress"
+    },
+    {
+      "id": "401909308",
+      "date": "2026-11-20",
+      "label": "Toronto Raptors @ Detroit Pistons",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_TORDET_book.pdf"
+    },
+    {
+      "id": "401909309",
+      "date": "2026-11-20",
+      "label": "Washington Wizards @ Chicago Bulls",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_WASCHI_book.pdf"
+    }
+  ]
 }
