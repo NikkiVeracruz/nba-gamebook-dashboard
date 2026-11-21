@@ -2,7 +2,7 @@
 """Publish WNBA gamebook PDF availability for today and yesterday (America/New_York).
 
 ESPN's public scoreboard supplies the schedule. Every displayed PDF is checked
-at the official NBA statsdmz host using its exact date and team abbreviations.
+against candidate WNBA PDF URLs using exact dates and team abbreviations.
 """
 from __future__ import annotations
 
@@ -19,18 +19,13 @@ ET = ZoneInfo("America/New_York")
 OUTPUT = Path("wnba/gamebooks.json")
 SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard"
 PDF_BASE = "https://statsdmz.wnba.com/pdfs"
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; NBAGamebookDashboard/1.0)", "Accept": "application/json,application/pdf,*/*"}
+HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; WNBAGamebookDashboard/1.0)", "Accept": "application/json,application/pdf,*/*"}
 LOG = logging.getLogger("wnba-gamebooks")
 
 # ESPN's abbreviations can differ from the WNBA's official PDF naming scheme.
-WNBA_CODES = {"GS": "GSW", "GSW": "GSW", "NY": "NYK", "NYK": "NYK",
-             "SA": "SAS", "SAS": "SAS", "NO": "NOP", "NOP": "NOP",
-             "UTAH": "UTA", "UT": "UTA", "WSH": "WAS", "WAS": "WAS",
-             "BKN": "BKN", "BK": "BKN", "PHX": "PHX", "PHO": "PHX",
-             "CHA": "CHA", "CH": "CHA", "LAC": "LAC", "LA": "LAL",
-             "LAL": "LAL", "POR": "POR", "OKC": "OKC"}
+WNBA_CODES = {"NY":"NYL","NYL":"NYL","LV":"LVA","LVA":"LVA","LA":"LAS","LAS":"LAS","PHO":"PHX","PHX":"PHX","WSH":"WAS","WAS":"WAS","CON":"CON","CT":"CON","GS":"GSV","GSV":"GSV","SEA":"SEA","ATL":"ATL","DAL":"DAL","MIN":"MIN","IND":"IND","CHI":"CHI","POR":"POR","TOR":"TOR"}
 
-def wwnba_code(value: str) -> str:
+def wnba_code(value: str) -> str:
     code = value.upper().strip()
     return WNBA_CODES.get(code, code)
 
