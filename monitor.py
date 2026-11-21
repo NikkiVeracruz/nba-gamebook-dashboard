@@ -83,7 +83,8 @@ def games_on(session: requests.Session, day) -> list[dict]:
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
-    today = datetime.now(ET).date()
+    # Reporting day changes at 3:00 AM Eastern, including DST.
+    today = (datetime.now(ET) - timedelta(hours=3)).date()
     days = [today - timedelta(days=1), today]
     session = requests.Session()
     session.headers.update(HEADERS)
