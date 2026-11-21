@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 20, 2026 – Nov 21, 2026 (ET)",
-  "updated_at": "2026-11-21T20:07:32.053437+00:00",
+  "updated_at": "2026-11-21T20:48:01.534084+00:00",
   "games": [
     {
       "id": "401909305",
@@ -87,7 +87,8 @@
       "id": "401910023",
       "date": "2026-11-21",
       "label": "Milwaukee Bucks @ Philadelphia 76ers",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261121/20261121_MILPHI_book.pdf"
     },
     {
       "id": "401910027",
