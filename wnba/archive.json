@@ -1,6 +1,433 @@
 {
-  "updated_at": "2026-11-21T23:32:43.058790+00:00",
+  "updated_at": "2026-11-21T23:34:03.701931+00:00",
   "games": [
+    {
+      "id": "401820329",
+      "date": "2025-10-10",
+      "label": "Las Vegas Aces @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20251010/20251010_LVAPHX_book.pdf"
+    },
+    {
+      "id": "401820326",
+      "date": "2025-10-08",
+      "label": "Las Vegas Aces @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20251008/20251008_LVAPHX_book.pdf"
+    },
+    {
+      "id": "401820325",
+      "date": "2025-10-05",
+      "label": "Phoenix Mercury @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20251005/20251005_PHXLVA_book.pdf"
+    },
+    {
+      "id": "401820322",
+      "date": "2025-10-03",
+      "label": "Phoenix Mercury @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20251003/20251003_PHXLVA_book.pdf"
+    },
+    {
+      "id": "401820340",
+      "date": "2025-09-30",
+      "label": "Indiana Fever @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250930/20250930_INDLVA_book.pdf"
+    },
+    {
+      "id": "401820338",
+      "date": "2025-09-28",
+      "label": "Minnesota Lynx @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250928/20250928_MINPHX_book.pdf"
+    },
+    {
+      "id": "401820337",
+      "date": "2025-09-28",
+      "label": "Las Vegas Aces @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250928/20250928_LVAIND_book.pdf"
+    },
+    {
+      "id": "401820333",
+      "date": "2025-09-26",
+      "label": "Minnesota Lynx @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250926/20250926_MINPHX_book.pdf"
+    },
+    {
+      "id": "401820334",
+      "date": "2025-09-26",
+      "label": "Las Vegas Aces @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250926/20250926_LVAIND_book.pdf"
+    },
+    {
+      "id": "401820330",
+      "date": "2025-09-23",
+      "label": "Phoenix Mercury @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250923/20250923_PHXMIN_book.pdf"
+    },
+    {
+      "id": "401820331",
+      "date": "2025-09-23",
+      "label": "Indiana Fever @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250923/20250923_INDLVA_book.pdf"
+    },
+    {
+      "id": "401820328",
+      "date": "2025-09-21",
+      "label": "Phoenix Mercury @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250921/20250921_PHXMIN_book.pdf"
+    },
+    {
+      "id": "401820327",
+      "date": "2025-09-21",
+      "label": "Indiana Fever @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250921/20250921_INDLVA_book.pdf"
+    },
+    {
+      "id": "401820324",
+      "date": "2025-09-19",
+      "label": "New York Liberty @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250919/20250919_NYLPHX_book.pdf"
+    },
+    {
+      "id": "401820321",
+      "date": "2025-09-18",
+      "label": "Seattle Storm @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250918/20250918_SEALVA_book.pdf"
+    },
+    {
+      "id": "401820320",
+      "date": "2025-09-18",
+      "label": "Indiana Fever @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250918/20250918_INDATL_book.pdf"
+    },
+    {
+      "id": "401820318",
+      "date": "2025-09-17",
+      "label": "Phoenix Mercury @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250917/20250917_PHXNYL_book.pdf"
+    },
+    {
+      "id": "401820319",
+      "date": "2025-09-17",
+      "label": "Minnesota Lynx @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250917/20250917_MINGSV_book.pdf"
+    },
+    {
+      "id": "401820317",
+      "date": "2025-09-16",
+      "label": "Las Vegas Aces @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250916/20250916_LVASEA_book.pdf"
+    },
+    {
+      "id": "401820316",
+      "date": "2025-09-16",
+      "label": "Atlanta Dream @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250916/20250916_ATLIND_book.pdf"
+    },
+    {
+      "id": "401820315",
+      "date": "2025-09-14",
+      "label": "Seattle Storm @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250914/20250914_SEALVA_book.pdf"
+    },
+    {
+      "id": "401820314",
+      "date": "2025-09-14",
+      "label": "New York Liberty @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250914/20250914_NYLPHX_book.pdf"
+    },
+    {
+      "id": "401820313",
+      "date": "2025-09-14",
+      "label": "Indiana Fever @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250914/20250914_INDATL_book.pdf"
+    },
+    {
+      "id": "401820272",
+      "date": "2025-09-14",
+      "label": "Golden State Valkyries @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250914/20250914_GSVMIN_book.pdf"
+    },
+    {
+      "id": "401736395",
+      "date": "2025-09-11",
+      "label": "Phoenix Mercury @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250911/20250911_PHXDAL_book.pdf"
+    },
+    {
+      "id": "401736394",
+      "date": "2025-09-11",
+      "label": "New York Liberty @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250911/20250911_NYLCHI_book.pdf"
+    },
+    {
+      "id": "401736397",
+      "date": "2025-09-11",
+      "label": "Las Vegas Aces @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250911/20250911_LVALAS_book.pdf"
+    },
+    {
+      "id": "401736396",
+      "date": "2025-09-11",
+      "label": "Golden State Valkyries @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250911/20250911_GSVMIN_book.pdf"
+    },
+    {
+      "id": "401736393",
+      "date": "2025-09-10",
+      "label": "Atlanta Dream @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250910/20250910_ATLCON_book.pdf"
+    },
+    {
+      "id": "401736388",
+      "date": "2025-09-09",
+      "label": "Washington Mystics @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250909/20250909_WASNYL_book.pdf"
+    },
+    {
+      "id": "401736389",
+      "date": "2025-09-09",
+      "label": "Minnesota Lynx @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250909/20250909_MININD_book.pdf"
+    },
+    {
+      "id": "401736391",
+      "date": "2025-09-09",
+      "label": "Los Angeles Sparks @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250909/20250909_LASPHX_book.pdf"
+    },
+    {
+      "id": "401736392",
+      "date": "2025-09-09",
+      "label": "Golden State Valkyries @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250909/20250909_GSVSEA_book.pdf"
+    },
+    {
+      "id": "401736390",
+      "date": "2025-09-09",
+      "label": "Chicago Sky @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250909/20250909_CHILVA_book.pdf"
+    },
+    {
+      "id": "401736387",
+      "date": "2025-09-08",
+      "label": "Connecticut Sun @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250908/20250908_CONATL_book.pdf"
+    },
+    {
+      "id": "401736384",
+      "date": "2025-09-07",
+      "label": "Indiana Fever @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250907/20250907_INDWAS_book.pdf"
+    },
+    {
+      "id": "401736385",
+      "date": "2025-09-07",
+      "label": "Dallas Wings @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250907/20250907_DALLAS_book.pdf"
+    },
+    {
+      "id": "401736386",
+      "date": "2025-09-07",
+      "label": "Chicago Sky @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250907/20250907_CHILVA_book.pdf"
+    },
+    {
+      "id": "401736382",
+      "date": "2025-09-06",
+      "label": "Phoenix Mercury @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250906/20250906_PHXCON_book.pdf"
+    },
+    {
+      "id": "401736383",
+      "date": "2025-09-06",
+      "label": "Minnesota Lynx @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250906/20250906_MINGSV_book.pdf"
+    },
+    {
+      "id": "401736381",
+      "date": "2025-09-05",
+      "label": "New York Liberty @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250905/20250905_NYLSEA_book.pdf"
+    },
+    {
+      "id": "401736379",
+      "date": "2025-09-05",
+      "label": "Los Angeles Sparks @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250905/20250905_LASATL_book.pdf"
+    },
+    {
+      "id": "401736380",
+      "date": "2025-09-05",
+      "label": "Chicago Sky @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250905/20250905_CHIIND_book.pdf"
+    },
+    {
+      "id": "401736376",
+      "date": "2025-09-04",
+      "label": "Phoenix Mercury @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250904/20250904_PHXWAS_book.pdf"
+    },
+    {
+      "id": "401736378",
+      "date": "2025-09-04",
+      "label": "Minnesota Lynx @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250904/20250904_MINLVA_book.pdf"
+    },
+    {
+      "id": "401736377",
+      "date": "2025-09-04",
+      "label": "Dallas Wings @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250904/20250904_DALGSV_book.pdf"
+    },
+    {
+      "id": "401736374",
+      "date": "2025-09-03",
+      "label": "Los Angeles Sparks @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250903/20250903_LASATL_book.pdf"
+    },
+    {
+      "id": "401736375",
+      "date": "2025-09-03",
+      "label": "Connecticut Sun @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250903/20250903_CONCHI_book.pdf"
+    },
+    {
+      "id": "401736372",
+      "date": "2025-09-02",
+      "label": "New York Liberty @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250902/20250902_NYLGSV_book.pdf"
+    },
+    {
+      "id": "401736373",
+      "date": "2025-09-02",
+      "label": "Indiana Fever @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250902/20250902_INDPHX_book.pdf"
+    },
+    {
+      "id": "401736371",
+      "date": "2025-09-01",
+      "label": "Los Angeles Sparks @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250901/20250901_LASSEA_book.pdf"
+    },
+    {
+      "id": "401736370",
+      "date": "2025-09-01",
+      "label": "Dallas Wings @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250901/20250901_DALMIN_book.pdf"
+    },
+    {
+      "id": "401736369",
+      "date": "2025-09-01",
+      "label": "Atlanta Dream @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250901/20250901_ATLCON_book.pdf"
+    },
+    {
+      "id": "401736367",
+      "date": "2025-08-31",
+      "label": "Washington Mystics @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250831/20250831_WASLAS_book.pdf"
+    },
+    {
+      "id": "401736368",
+      "date": "2025-08-31",
+      "label": "Indiana Fever @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250831/20250831_INDGSV_book.pdf"
+    },
+    {
+      "id": "401736364",
+      "date": "2025-08-30",
+      "label": "Washington Mystics @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250830/20250830_WASGSV_book.pdf"
+    },
+    {
+      "id": "401736366",
+      "date": "2025-08-30",
+      "label": "New York Liberty @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250830/20250830_NYLPHX_book.pdf"
+    },
+    {
+      "id": "401736363",
+      "date": "2025-08-30",
+      "label": "Minnesota Lynx @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250830/20250830_MINCON_book.pdf"
+    },
+    {
+      "id": "401736365",
+      "date": "2025-08-30",
+      "label": "Chicago Sky @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250830/20250830_CHISEA_book.pdf"
+    },
+    {
+      "id": "401736362",
+      "date": "2025-08-29",
+      "label": "Indiana Fever @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250829/20250829_INDLAS_book.pdf"
+    },
+    {
+      "id": "401736361",
+      "date": "2025-08-29",
+      "label": "Dallas Wings @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20250829/20250829_DALATL_book.pdf"
+    },
     {
       "id": "401736358",
       "date": "2025-08-28",
