@@ -3,7 +3,7 @@ name: Update NBA Gamebook Dashboard
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "11,26,41,56 * * * *"
 
 permissions:
   contents: write
