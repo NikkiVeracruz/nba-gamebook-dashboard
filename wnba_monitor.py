@@ -18,7 +18,7 @@ import requests
 ET = ZoneInfo("America/New_York")
 OUTPUT = Path("wnba/gamebooks.json")
 SCOREBOARD = "https://site.api.espn.com/apis/site/v2/sports/basketball/wnba/scoreboard"
-PDF_BASE = "https://statsdmz.wnba.com/pdfs"
+PDF_BASE = "https://statsdmz.nba.com/pdfs"
 HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; WNBAGamebookDashboard/1.0)", "Accept": "application/json,application/pdf,*/*"}
 LOG = logging.getLogger("wnba-gamebooks")
 
@@ -101,7 +101,7 @@ def main() -> None:
             LOG.info("%s: %d games", day, len(day_games))
             games.extend(day_games)
         except (requests.RequestException, ValueError, KeyError) as exc:
-            LOG.exception("Could not retrieve NBA schedule for %s", day)
+            LOG.exception("Could not retrieve WNBA schedule for %s", day)
             failures.append(str(day))
     if failures:
         # Preserve existing data if the source is temporarily unavailable,
@@ -125,7 +125,7 @@ def main() -> None:
     OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
     LOG.info("Published %d games (%d verified PDFs)", len(games), sum("pdf_url" in g for g in games))
     if len(failures) == len(days):
-        raise RuntimeError("Both NBA scoreboard requests failed; check source availability")
+        raise RuntimeError("Both WNBA scoreboard requests failed; check source availability")
 
 if __name__ == "__main__":
     main()
