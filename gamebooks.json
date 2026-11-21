@@ -1,35 +1,7 @@
 {
-  "window_label": "Nov 19, 2026 – Nov 20, 2026 (ET)",
-  "updated_at": "2026-11-21T07:51:50.851387+00:00",
+  "window_label": "Nov 20, 2026 – Nov 21, 2026 (ET)",
+  "updated_at": "2026-11-21T08:39:39.558539+00:00",
   "games": [
-    {
-      "id": "401910019",
-      "date": "2026-11-19",
-      "label": "Golden State Warriors @ Memphis Grizzlies",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261119/20261119_GSWMEM_book.pdf"
-    },
-    {
-      "id": "401910022",
-      "date": "2026-11-19",
-      "label": "LA Clippers @ San Antonio Spurs",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261119/20261119_LACSAS_book.pdf"
-    },
-    {
-      "id": "401910021",
-      "date": "2026-11-19",
-      "label": "New York Knicks @ Minnesota Timberwolves",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261119/20261119_NYKMIN_book.pdf"
-    },
-    {
-      "id": "401910020",
-      "date": "2026-11-19",
-      "label": "Portland Trail Blazers @ Milwaukee Bucks",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261119/20261119_PORMIL_book.pdf"
-    },
     {
       "id": "401909305",
       "date": "2026-11-20",
@@ -92,6 +64,42 @@
       "label": "Washington Wizards @ Chicago Bulls",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_WASCHI_book.pdf"
+    },
+    {
+      "id": "401910028",
+      "date": "2026-11-21",
+      "label": "Boston Celtics @ Sacramento Kings",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910025",
+      "date": "2026-11-21",
+      "label": "LA Clippers @ Dallas Mavericks",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910026",
+      "date": "2026-11-21",
+      "label": "Memphis Grizzlies @ Minnesota Timberwolves",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910023",
+      "date": "2026-11-21",
+      "label": "Milwaukee Bucks @ Philadelphia 76ers",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910027",
+      "date": "2026-11-21",
+      "label": "New Orleans Pelicans @ San Antonio Spurs",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910024",
+      "date": "2026-11-21",
+      "label": "Portland Trail Blazers @ New York Knicks",
+      "status": "Scheduled"
     }
   ]
 }
