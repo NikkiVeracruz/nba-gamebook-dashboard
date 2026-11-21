@@ -70,7 +70,8 @@ def games_on(session: requests.Session, day) -> list[dict]:
             "label": f"{away_team.get('displayName', away_code)} @ {home_team.get('displayName', home_code)}",
             "status": status.get("description", "Scheduled"),
         }
-        # Only display a PDF when its bytes are verified; URL patterns are candidates, not proof.\n        if is_final and valid_pdf(session, pdf_url):
+        # Only display a PDF when its bytes are verified; URL patterns are candidates, not proof.
+        if is_final and valid_pdf(session, pdf_url):
             game["pdf_url"] = pdf_url
             LOG.info("Verified official PDF: %s", pdf_url)
         results.append(game)
