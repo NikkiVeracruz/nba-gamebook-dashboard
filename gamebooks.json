@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 20, 2026 – Nov 21, 2026 (ET)",
-  "updated_at": "2026-11-22T02:31:59.816883+00:00",
+  "updated_at": "2026-11-22T03:28:38.839395+00:00",
   "games": [
     {
       "id": "401909305",
@@ -69,19 +69,21 @@
       "id": "401910028",
       "date": "2026-11-21",
       "label": "Boston Celtics @ Sacramento Kings",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910025",
       "date": "2026-11-21",
       "label": "LA Clippers @ Dallas Mavericks",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261121/20261121_LACDAL_book.pdf"
     },
     {
       "id": "401910026",
       "date": "2026-11-21",
       "label": "Memphis Grizzlies @ Minnesota Timberwolves",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261121/20261121_MEMMIN_book.pdf"
     },
     {
       "id": "401910023",
@@ -94,13 +96,15 @@
       "id": "401910027",
       "date": "2026-11-21",
       "label": "New Orleans Pelicans @ San Antonio Spurs",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261121/20261121_NOPSAS_book.pdf"
     },
     {
       "id": "401910024",
       "date": "2026-11-21",
       "label": "Portland Trail Blazers @ New York Knicks",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261121/20261121_PORNYK_book.pdf"
     }
   ]
 }
