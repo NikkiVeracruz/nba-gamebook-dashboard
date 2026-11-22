@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 20, 2026 – Nov 21, 2026 (ET)",
-  "updated_at": "2026-11-22T01:36:40.394924+00:00",
+  "updated_at": "2026-11-22T02:31:59.816883+00:00",
   "games": [
     {
       "id": "401909305",
@@ -75,7 +75,7 @@
       "id": "401910025",
       "date": "2026-11-21",
       "label": "LA Clippers @ Dallas Mavericks",
-      "status": "End of Period"
+      "status": "In Progress"
     },
     {
       "id": "401910026",
@@ -100,7 +100,7 @@
       "id": "401910024",
       "date": "2026-11-21",
       "label": "Portland Trail Blazers @ New York Knicks",
-      "status": "Halftime"
+      "status": "In Progress"
     }
   ]
 }
