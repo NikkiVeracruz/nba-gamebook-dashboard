@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-21T23:27:42.576175+00:00",
+  "updated_at": "2026-11-22T00:08:38.600278+00:00",
   "games": [
     {
       "id": "401910024",
@@ -100,6 +100,286 @@
       "label": "Charlotte Hornets @ Atlanta Hawks",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261120/20261120_CHAATL_book.pdf"
+    },
+    {
+      "id": "401859967",
+      "date": "2026-06-13",
+      "label": "New York Knicks @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260613/20260613_NYKSAS_book.pdf"
+    },
+    {
+      "id": "401859966",
+      "date": "2026-06-10",
+      "label": "San Antonio Spurs @ New York Knicks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260610/20260610_SASNYK_book.pdf"
+    },
+    {
+      "id": "401859965",
+      "date": "2026-06-08",
+      "label": "San Antonio Spurs @ New York Knicks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260608/20260608_SASNYK_book.pdf"
+    },
+    {
+      "id": "401859964",
+      "date": "2026-06-05",
+      "label": "New York Knicks @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260605/20260605_NYKSAS_book.pdf"
+    },
+    {
+      "id": "401859963",
+      "date": "2026-06-03",
+      "label": "New York Knicks @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260603/20260603_NYKSAS_book.pdf"
+    },
+    {
+      "id": "401873203",
+      "date": "2026-05-30",
+      "label": "San Antonio Spurs @ Oklahoma City Thunder",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260530/20260530_SASOKC_book.pdf"
+    },
+    {
+      "id": "401873202",
+      "date": "2026-05-28",
+      "label": "Oklahoma City Thunder @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260528/20260528_OKCSAS_book.pdf"
+    },
+    {
+      "id": "401873201",
+      "date": "2026-05-26",
+      "label": "San Antonio Spurs @ Oklahoma City Thunder",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260526/20260526_SASOKC_book.pdf"
+    },
+    {
+      "id": "401873344",
+      "date": "2026-05-25",
+      "label": "New York Knicks @ Cleveland Cavaliers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260525/20260525_NYKCLE_book.pdf"
+    },
+    {
+      "id": "401873200",
+      "date": "2026-05-24",
+      "label": "Oklahoma City Thunder @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260524/20260524_OKCSAS_book.pdf"
+    },
+    {
+      "id": "401873343",
+      "date": "2026-05-23",
+      "label": "New York Knicks @ Cleveland Cavaliers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260523/20260523_NYKCLE_book.pdf"
+    },
+    {
+      "id": "401873199",
+      "date": "2026-05-22",
+      "label": "Oklahoma City Thunder @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260522/20260522_OKCSAS_book.pdf"
+    },
+    {
+      "id": "401873342",
+      "date": "2026-05-21",
+      "label": "Cleveland Cavaliers @ New York Knicks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260521/20260521_CLENYK_book.pdf"
+    },
+    {
+      "id": "401873198",
+      "date": "2026-05-20",
+      "label": "San Antonio Spurs @ Oklahoma City Thunder",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260520/20260520_SASOKC_book.pdf"
+    },
+    {
+      "id": "401873341",
+      "date": "2026-05-19",
+      "label": "Cleveland Cavaliers @ New York Knicks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260519/20260519_CLENYK_book.pdf"
+    },
+    {
+      "id": "401873197",
+      "date": "2026-05-18",
+      "label": "San Antonio Spurs @ Oklahoma City Thunder",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260518/20260518_SASOKC_book.pdf"
+    },
+    {
+      "id": "401871339",
+      "date": "2026-05-17",
+      "label": "Cleveland Cavaliers @ Detroit Pistons",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260517/20260517_CLEDET_book.pdf"
+    },
+    {
+      "id": "401871157",
+      "date": "2026-05-15",
+      "label": "San Antonio Spurs @ Minnesota Timberwolves",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260515/20260515_SASMIN_book.pdf"
+    },
+    {
+      "id": "401871338",
+      "date": "2026-05-15",
+      "label": "Detroit Pistons @ Cleveland Cavaliers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260515/20260515_DETCLE_book.pdf"
+    },
+    {
+      "id": "401871337",
+      "date": "2026-05-13",
+      "label": "Cleveland Cavaliers @ Detroit Pistons",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260513/20260513_CLEDET_book.pdf"
+    },
+    {
+      "id": "401871156",
+      "date": "2026-05-12",
+      "label": "Minnesota Timberwolves @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260512/20260512_MINSAS_book.pdf"
+    },
+    {
+      "id": "401871329",
+      "date": "2026-05-11",
+      "label": "Oklahoma City Thunder @ Los Angeles Lakers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260511/20260511_OKCLAL_book.pdf"
+    },
+    {
+      "id": "401871336",
+      "date": "2026-05-11",
+      "label": "Detroit Pistons @ Cleveland Cavaliers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260511/20260511_DETCLE_book.pdf"
+    },
+    {
+      "id": "401871155",
+      "date": "2026-05-10",
+      "label": "San Antonio Spurs @ Minnesota Timberwolves",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260510/20260510_SASMIN_book.pdf"
+    },
+    {
+      "id": "401871162",
+      "date": "2026-05-10",
+      "label": "New York Knicks @ Philadelphia 76ers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260510/20260510_NYKPHI_book.pdf"
+    },
+    {
+      "id": "401871328",
+      "date": "2026-05-09",
+      "label": "Oklahoma City Thunder @ Los Angeles Lakers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260509/20260509_OKCLAL_book.pdf"
+    },
+    {
+      "id": "401871335",
+      "date": "2026-05-09",
+      "label": "Detroit Pistons @ Cleveland Cavaliers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260509/20260509_DETCLE_book.pdf"
+    },
+    {
+      "id": "401871154",
+      "date": "2026-05-08",
+      "label": "San Antonio Spurs @ Minnesota Timberwolves",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260508/20260508_SASMIN_book.pdf"
+    },
+    {
+      "id": "401871161",
+      "date": "2026-05-08",
+      "label": "New York Knicks @ Philadelphia 76ers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260508/20260508_NYKPHI_book.pdf"
+    },
+    {
+      "id": "401871327",
+      "date": "2026-05-07",
+      "label": "Los Angeles Lakers @ Oklahoma City Thunder",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260507/20260507_LALOKC_book.pdf"
+    },
+    {
+      "id": "401871334",
+      "date": "2026-05-07",
+      "label": "Cleveland Cavaliers @ Detroit Pistons",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260507/20260507_CLEDET_book.pdf"
+    },
+    {
+      "id": "401871160",
+      "date": "2026-05-06",
+      "label": "Philadelphia 76ers @ New York Knicks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260506/20260506_PHINYK_book.pdf"
+    },
+    {
+      "id": "401871153",
+      "date": "2026-05-06",
+      "label": "Minnesota Timberwolves @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260506/20260506_MINSAS_book.pdf"
+    },
+    {
+      "id": "401871326",
+      "date": "2026-05-05",
+      "label": "Los Angeles Lakers @ Oklahoma City Thunder",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260505/20260505_LALOKC_book.pdf"
+    },
+    {
+      "id": "401871333",
+      "date": "2026-05-05",
+      "label": "Cleveland Cavaliers @ Detroit Pistons",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260505/20260505_CLEDET_book.pdf"
+    },
+    {
+      "id": "401871159",
+      "date": "2026-05-04",
+      "label": "Philadelphia 76ers @ New York Knicks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260504/20260504_PHINYK_book.pdf"
+    },
+    {
+      "id": "401871152",
+      "date": "2026-05-04",
+      "label": "Minnesota Timberwolves @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260504/20260504_MINSAS_book.pdf"
+    },
+    {
+      "id": "401869384",
+      "date": "2026-05-03",
+      "label": "Toronto Raptors @ Cleveland Cavaliers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260503/20260503_TORCLE_book.pdf"
+    },
+    {
+      "id": "401869418",
+      "date": "2026-05-03",
+      "label": "Orlando Magic @ Detroit Pistons",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260503/20260503_ORLDET_book.pdf"
+    },
+    {
+      "id": "401869412",
+      "date": "2026-05-02",
+      "label": "Philadelphia 76ers @ Boston Celtics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260502/20260502_PHIBOS_book.pdf"
     },
     {
       "id": "401869409",
