@@ -1,6 +1,2022 @@
 {
-  "updated_at": "2026-11-22T00:17:59.099644+00:00",
+  "updated_at": "2026-11-22T01:24:36.816848+00:00",
   "games": [
+    {
+      "id": "401857169",
+      "date": "2026-08-23",
+      "label": "Washington Mystics @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401857167",
+      "date": "2026-08-23",
+      "label": "Seattle Storm @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260823/20260823_SEADAL_book.pdf"
+    },
+    {
+      "id": "401857170",
+      "date": "2026-08-23",
+      "label": "Las Vegas Aces @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260823/20260823_LVATOR_book.pdf"
+    },
+    {
+      "id": "401857168",
+      "date": "2026-08-23",
+      "label": "Indiana Fever @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260823/20260823_INDCHI_book.pdf"
+    },
+    {
+      "id": "401857164",
+      "date": "2026-08-22",
+      "label": "Indiana Fever @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260822/20260822_INDNYL_book.pdf"
+    },
+    {
+      "id": "401857165",
+      "date": "2026-08-22",
+      "label": "Connecticut Sun @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260822/20260822_CONLAS_book.pdf"
+    },
+    {
+      "id": "401857166",
+      "date": "2026-08-22",
+      "label": "Atlanta Dream @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260822/20260822_ATLPHX_book.pdf"
+    },
+    {
+      "id": "401857163",
+      "date": "2026-08-21",
+      "label": "Portland Fire @ Toronto Tempo",
+      "status": "Final"
+    },
+    {
+      "id": "401857161",
+      "date": "2026-08-21",
+      "label": "Minnesota Lynx @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260821/20260821_MINWAS_book.pdf"
+    },
+    {
+      "id": "401857162",
+      "date": "2026-08-21",
+      "label": "Golden State Valkyries @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260821/20260821_GSVCHI_book.pdf"
+    },
+    {
+      "id": "401857158",
+      "date": "2026-08-20",
+      "label": "Indiana Fever @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260820/20260820_INDDAL_book.pdf"
+    },
+    {
+      "id": "401857159",
+      "date": "2026-08-20",
+      "label": "Connecticut Sun @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260820/20260820_CONLVA_book.pdf"
+    },
+    {
+      "id": "401857160",
+      "date": "2026-08-20",
+      "label": "Atlanta Dream @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260820/20260820_ATLLAS_book.pdf"
+    },
+    {
+      "id": "401857156",
+      "date": "2026-08-19",
+      "label": "Toronto Tempo @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260819/20260819_TORWAS_book.pdf"
+    },
+    {
+      "id": "401857157",
+      "date": "2026-08-19",
+      "label": "Minnesota Lynx @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260819/20260819_MINGSV_book.pdf"
+    },
+    {
+      "id": "401857154",
+      "date": "2026-08-18",
+      "label": "New York Liberty @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260818/20260818_NYLCHI_book.pdf"
+    },
+    {
+      "id": "401857152",
+      "date": "2026-08-18",
+      "label": "Los Angeles Sparks @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260818/20260818_LASCON_book.pdf"
+    },
+    {
+      "id": "401857153",
+      "date": "2026-08-18",
+      "label": "Indiana Fever @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260818/20260818_INDTOR_book.pdf"
+    },
+    {
+      "id": "401857155",
+      "date": "2026-08-18",
+      "label": "Atlanta Dream @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260818/20260818_ATLLVA_book.pdf"
+    },
+    {
+      "id": "401857151",
+      "date": "2026-08-17",
+      "label": "Dallas Wings @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260817/20260817_DALGSV_book.pdf"
+    },
+    {
+      "id": "401857149",
+      "date": "2026-08-16",
+      "label": "Portland Fire @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401857150",
+      "date": "2026-08-16",
+      "label": "Indiana Fever @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260816/20260816_INDATL_book.pdf"
+    },
+    {
+      "id": "401857148",
+      "date": "2026-08-16",
+      "label": "Chicago Sky @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260816/20260816_CHISEA_book.pdf"
+    },
+    {
+      "id": "401857145",
+      "date": "2026-08-15",
+      "label": "New York Liberty @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260815/20260815_NYLCON_book.pdf"
+    },
+    {
+      "id": "401857147",
+      "date": "2026-08-15",
+      "label": "Minnesota Lynx @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260815/20260815_MINLVA_book.pdf"
+    },
+    {
+      "id": "401857146",
+      "date": "2026-08-15",
+      "label": "Los Angeles Sparks @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260815/20260815_LASWAS_book.pdf"
+    },
+    {
+      "id": "401857144",
+      "date": "2026-08-14",
+      "label": "Portland Fire @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401857143",
+      "date": "2026-08-14",
+      "label": "Dallas Wings @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260814/20260814_DALIND_book.pdf"
+    },
+    {
+      "id": "401857142",
+      "date": "2026-08-13",
+      "label": "Washington Mystics @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260813/20260813_WASLVA_book.pdf"
+    },
+    {
+      "id": "401857141",
+      "date": "2026-08-13",
+      "label": "Los Angeles Sparks @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260813/20260813_LASNYL_book.pdf"
+    },
+    {
+      "id": "401857140",
+      "date": "2026-08-13",
+      "label": "Atlanta Dream @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260813/20260813_ATLCON_book.pdf"
+    },
+    {
+      "id": "401857137",
+      "date": "2026-08-12",
+      "label": "Toronto Tempo @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260812/20260812_TORDAL_book.pdf"
+    },
+    {
+      "id": "401857139",
+      "date": "2026-08-12",
+      "label": "Minnesota Lynx @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401857138",
+      "date": "2026-08-12",
+      "label": "Chicago Sky @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260812/20260812_CHIGSV_book.pdf"
+    },
+    {
+      "id": "401857135",
+      "date": "2026-08-11",
+      "label": "Washington Mystics @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260811/20260811_WASLVA_book.pdf"
+    },
+    {
+      "id": "401857136",
+      "date": "2026-08-11",
+      "label": "Phoenix Mercury @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260811/20260811_PHXLAS_book.pdf"
+    },
+    {
+      "id": "401857134",
+      "date": "2026-08-11",
+      "label": "New York Liberty @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260811/20260811_NYLIND_book.pdf"
+    },
+    {
+      "id": "401857132",
+      "date": "2026-08-10",
+      "label": "Toronto Tempo @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260810/20260810_TORATL_book.pdf"
+    },
+    {
+      "id": "401857133",
+      "date": "2026-08-10",
+      "label": "Chicago Sky @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260810/20260810_CHISEA_book.pdf"
+    },
+    {
+      "id": "401857129",
+      "date": "2026-08-09",
+      "label": "Phoenix Mercury @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260809/20260809_PHXWAS_book.pdf"
+    },
+    {
+      "id": "401857128",
+      "date": "2026-08-09",
+      "label": "Las Vegas Aces @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260809/20260809_LVANYL_book.pdf"
+    },
+    {
+      "id": "401857131",
+      "date": "2026-08-09",
+      "label": "Golden State Valkyries @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260809/20260809_GSVLAS_book.pdf"
+    },
+    {
+      "id": "401857130",
+      "date": "2026-08-09",
+      "label": "Dallas Wings @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260809/20260809_DALMIN_book.pdf"
+    },
+    {
+      "id": "401857127",
+      "date": "2026-08-08",
+      "label": "Seattle Storm @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401857125",
+      "date": "2026-08-08",
+      "label": "Las Vegas Aces @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260808/20260808_LVAMIN_book.pdf"
+    },
+    {
+      "id": "401857126",
+      "date": "2026-08-08",
+      "label": "Indiana Fever @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260808/20260808_INDCHI_book.pdf"
+    },
+    {
+      "id": "401857122",
+      "date": "2026-08-07",
+      "label": "Phoenix Mercury @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260807/20260807_PHXCON_book.pdf"
+    },
+    {
+      "id": "401857124",
+      "date": "2026-08-07",
+      "label": "Golden State Valkyries @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260807/20260807_GSVDAL_book.pdf"
+    },
+    {
+      "id": "401857123",
+      "date": "2026-08-07",
+      "label": "Atlanta Dream @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260807/20260807_ATLWAS_book.pdf"
+    },
+    {
+      "id": "401857121",
+      "date": "2026-08-06",
+      "label": "Toronto Tempo @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401857120",
+      "date": "2026-08-06",
+      "label": "Los Angeles Sparks @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260806/20260806_LASMIN_book.pdf"
+    },
+    {
+      "id": "401857119",
+      "date": "2026-08-06",
+      "label": "Las Vegas Aces @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260806/20260806_LVAIND_book.pdf"
+    },
+    {
+      "id": "401857116",
+      "date": "2026-08-05",
+      "label": "Seattle Storm @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260805/20260805_SEANYL_book.pdf"
+    },
+    {
+      "id": "401857115",
+      "date": "2026-08-05",
+      "label": "Phoenix Mercury @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260805/20260805_PHXATL_book.pdf"
+    },
+    {
+      "id": "401857118",
+      "date": "2026-08-05",
+      "label": "Los Angeles Sparks @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260805/20260805_LASCHI_book.pdf"
+    },
+    {
+      "id": "401857117",
+      "date": "2026-08-05",
+      "label": "Dallas Wings @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260805/20260805_DALWAS_book.pdf"
+    },
+    {
+      "id": "401857114",
+      "date": "2026-08-04",
+      "label": "Toronto Tempo @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260804/20260804_TORGSV_book.pdf"
+    },
+    {
+      "id": "401857112",
+      "date": "2026-08-03",
+      "label": "Seattle Storm @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260803/20260803_SEANYL_book.pdf"
+    },
+    {
+      "id": "401857113",
+      "date": "2026-08-03",
+      "label": "Phoenix Mercury @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260803/20260803_PHXCHI_book.pdf"
+    },
+    {
+      "id": "401857111",
+      "date": "2026-08-03",
+      "label": "Las Vegas Aces @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260803/20260803_LVAATL_book.pdf"
+    },
+    {
+      "id": "401857110",
+      "date": "2026-08-02",
+      "label": "Toronto Tempo @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260802/20260802_TORGSV_book.pdf"
+    },
+    {
+      "id": "401857108",
+      "date": "2026-08-02",
+      "label": "Los Angeles Sparks @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401857107",
+      "date": "2026-08-02",
+      "label": "Indiana Fever @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260802/20260802_INDMIN_book.pdf"
+    },
+    {
+      "id": "401857109",
+      "date": "2026-08-02",
+      "label": "Connecticut Sun @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260802/20260802_CONDAL_book.pdf"
+    },
+    {
+      "id": "401857106",
+      "date": "2026-08-01",
+      "label": "New York Liberty @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260801/20260801_NYLPHX_book.pdf"
+    },
+    {
+      "id": "401857105",
+      "date": "2026-08-01",
+      "label": "Las Vegas Aces @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260801/20260801_LVACHI_book.pdf"
+    },
+    {
+      "id": "401857102",
+      "date": "2026-07-31",
+      "label": "Seattle Storm @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260731/20260731_SEAATL_book.pdf"
+    },
+    {
+      "id": "401857104",
+      "date": "2026-07-31",
+      "label": "Indiana Fever @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401857103",
+      "date": "2026-07-31",
+      "label": "Dallas Wings @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260731/20260731_DALWAS_book.pdf"
+    },
+    {
+      "id": "401857101",
+      "date": "2026-07-30",
+      "label": "New York Liberty @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260730/20260730_NYLLVA_book.pdf"
+    },
+    {
+      "id": "401857099",
+      "date": "2026-07-30",
+      "label": "Minnesota Lynx @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260730/20260730_MINTOR_book.pdf"
+    },
+    {
+      "id": "401857100",
+      "date": "2026-07-30",
+      "label": "Connecticut Sun @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260730/20260730_CONCHI_book.pdf"
+    },
+    {
+      "id": "401857098",
+      "date": "2026-07-29",
+      "label": "Golden State Valkyries @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260729/20260729_GSVPHX_book.pdf"
+    },
+    {
+      "id": "401857097",
+      "date": "2026-07-29",
+      "label": "Atlanta Dream @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260729/20260729_ATLDAL_book.pdf"
+    },
+    {
+      "id": "401857093",
+      "date": "2026-07-28",
+      "label": "Toronto Tempo @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260728/20260728_TORMIN_book.pdf"
+    },
+    {
+      "id": "401857095",
+      "date": "2026-07-28",
+      "label": "Portland Fire @ Las Vegas Aces",
+      "status": "Final"
+    },
+    {
+      "id": "401857096",
+      "date": "2026-07-28",
+      "label": "New York Liberty @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260728/20260728_NYLLAS_book.pdf"
+    },
+    {
+      "id": "401857094",
+      "date": "2026-07-28",
+      "label": "Indiana Fever @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260728/20260728_INDSEA_book.pdf"
+    },
+    {
+      "id": "401857092",
+      "date": "2026-07-28",
+      "label": "Connecticut Sun @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260728/20260728_CONWAS_book.pdf"
+    },
+    {
+      "id": "401857086",
+      "date": "2026-07-22",
+      "label": "Phoenix Mercury @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260722/20260722_PHXLAS_book.pdf"
+    },
+    {
+      "id": "401857087",
+      "date": "2026-07-22",
+      "label": "Minnesota Lynx @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260722/20260722_MINSEA_book.pdf"
+    },
+    {
+      "id": "401857089",
+      "date": "2026-07-22",
+      "label": "Las Vegas Aces @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260722/20260722_LVAWAS_book.pdf"
+    },
+    {
+      "id": "401857091",
+      "date": "2026-07-22",
+      "label": "Dallas Wings @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401857090",
+      "date": "2026-07-22",
+      "label": "Connecticut Sun @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260722/20260722_CONIND_book.pdf"
+    },
+    {
+      "id": "401857088",
+      "date": "2026-07-22",
+      "label": "Chicago Sky @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260722/20260722_CHINYL_book.pdf"
+    },
+    {
+      "id": "401857084",
+      "date": "2026-07-20",
+      "label": "Washington Mystics @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260720/20260720_WASGSV_book.pdf"
+    },
+    {
+      "id": "401892393",
+      "date": "2026-07-20",
+      "label": "New York Liberty @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260720/20260720_NYLDAL_book.pdf"
+    },
+    {
+      "id": "401857085",
+      "date": "2026-07-20",
+      "label": "Minnesota Lynx @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260720/20260720_MINSEA_book.pdf"
+    },
+    {
+      "id": "401857083",
+      "date": "2026-07-20",
+      "label": "Las Vegas Aces @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260720/20260720_LVATOR_book.pdf"
+    },
+    {
+      "id": "401857080",
+      "date": "2026-07-19",
+      "label": "Los Angeles Sparks @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260719/20260719_LASDAL_book.pdf"
+    },
+    {
+      "id": "401857082",
+      "date": "2026-07-19",
+      "label": "Connecticut Sun @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260719/20260719_CONPHX_book.pdf"
+    },
+    {
+      "id": "401857081",
+      "date": "2026-07-19",
+      "label": "Chicago Sky @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260719/20260719_CHIATL_book.pdf"
+    },
+    {
+      "id": "401857079",
+      "date": "2026-07-18",
+      "label": "Washington Mystics @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260718/20260718_WASGSV_book.pdf"
+    },
+    {
+      "id": "401857078",
+      "date": "2026-07-18",
+      "label": "Portland Fire @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401857077",
+      "date": "2026-07-18",
+      "label": "New York Liberty @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260718/20260718_NYLIND_book.pdf"
+    },
+    {
+      "id": "401857073",
+      "date": "2026-07-17",
+      "label": "Seattle Storm @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260717/20260717_SEAIND_book.pdf"
+    },
+    {
+      "id": "401857075",
+      "date": "2026-07-17",
+      "label": "Los Angeles Sparks @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260717/20260717_LASCHI_book.pdf"
+    },
+    {
+      "id": "401857076",
+      "date": "2026-07-17",
+      "label": "Connecticut Sun @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260717/20260717_CONPHX_book.pdf"
+    },
+    {
+      "id": "401857074",
+      "date": "2026-07-17",
+      "label": "Atlanta Dream @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260717/20260717_ATLTOR_book.pdf"
+    },
+    {
+      "id": "401857071",
+      "date": "2026-07-16",
+      "label": "Portland Fire @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401857072",
+      "date": "2026-07-16",
+      "label": "New York Liberty @ Dallas Wings",
+      "status": "Postponed"
+    },
+    {
+      "id": "401857068",
+      "date": "2026-07-15",
+      "label": "Seattle Storm @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260715/20260715_SEACHI_book.pdf"
+    },
+    {
+      "id": "401857069",
+      "date": "2026-07-15",
+      "label": "Los Angeles Sparks @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260715/20260715_LASMIN_book.pdf"
+    },
+    {
+      "id": "401857070",
+      "date": "2026-07-15",
+      "label": "Golden State Valkyries @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260715/20260715_GSVIND_book.pdf"
+    },
+    {
+      "id": "401857067",
+      "date": "2026-07-14",
+      "label": "Washington Mystics @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260714/20260714_WASTOR_book.pdf"
+    },
+    {
+      "id": "401857066",
+      "date": "2026-07-14",
+      "label": "Portland Fire @ Connecticut Sun",
+      "status": "Final"
+    },
+    {
+      "id": "401857065",
+      "date": "2026-07-13",
+      "label": "Phoenix Mercury @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260713/20260713_PHXMIN_book.pdf"
+    },
+    {
+      "id": "401857064",
+      "date": "2026-07-13",
+      "label": "Los Angeles Sparks @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260713/20260713_LASATL_book.pdf"
+    },
+    {
+      "id": "401857061",
+      "date": "2026-07-12",
+      "label": "Seattle Storm @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260712/20260712_SEAWAS_book.pdf"
+    },
+    {
+      "id": "401857060",
+      "date": "2026-07-12",
+      "label": "New York Liberty @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260712/20260712_NYLTOR_book.pdf"
+    },
+    {
+      "id": "401857063",
+      "date": "2026-07-12",
+      "label": "Indiana Fever @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260712/20260712_INDLVA_book.pdf"
+    },
+    {
+      "id": "401857062",
+      "date": "2026-07-12",
+      "label": "Chicago Sky @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260712/20260712_CHIDAL_book.pdf"
+    },
+    {
+      "id": "401857059",
+      "date": "2026-07-11",
+      "label": "Portland Fire @ Atlanta Dream",
+      "status": "Final"
+    },
+    {
+      "id": "401857058",
+      "date": "2026-07-11",
+      "label": "Phoenix Mercury @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260711/20260711_PHXLVA_book.pdf"
+    },
+    {
+      "id": "401857057",
+      "date": "2026-07-11",
+      "label": "New York Liberty @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260711/20260711_NYLMIN_book.pdf"
+    },
+    {
+      "id": "401857054",
+      "date": "2026-07-10",
+      "label": "Golden State Valkyries @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260710/20260710_GSVCON_book.pdf"
+    },
+    {
+      "id": "401857055",
+      "date": "2026-07-10",
+      "label": "Dallas Wings @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260710/20260710_DALTOR_book.pdf"
+    },
+    {
+      "id": "401857056",
+      "date": "2026-07-10",
+      "label": "Chicago Sky @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260710/20260710_CHILAS_book.pdf"
+    },
+    {
+      "id": "401857051",
+      "date": "2026-07-09",
+      "label": "Seattle Storm @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260709/20260709_SEAATL_book.pdf"
+    },
+    {
+      "id": "401857053",
+      "date": "2026-07-09",
+      "label": "Las Vegas Aces @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401857052",
+      "date": "2026-07-09",
+      "label": "Indiana Fever @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260709/20260709_INDPHX_book.pdf"
+    },
+    {
+      "id": "401857049",
+      "date": "2026-07-08",
+      "label": "Minnesota Lynx @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260708/20260708_MINCON_book.pdf"
+    },
+    {
+      "id": "401857050",
+      "date": "2026-07-08",
+      "label": "Indiana Fever @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260708/20260708_INDLAS_book.pdf"
+    },
+    {
+      "id": "401857048",
+      "date": "2026-07-08",
+      "label": "Golden State Valkyries @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260708/20260708_GSVTOR_book.pdf"
+    },
+    {
+      "id": "401857046",
+      "date": "2026-07-07",
+      "label": "Dallas Wings @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260707/20260707_DALNYL_book.pdf"
+    },
+    {
+      "id": "401857047",
+      "date": "2026-07-07",
+      "label": "Chicago Sky @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260707/20260707_CHIPHX_book.pdf"
+    },
+    {
+      "id": "401857045",
+      "date": "2026-07-06",
+      "label": "Seattle Storm @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260706/20260706_SEALAS_book.pdf"
+    },
+    {
+      "id": "401857043",
+      "date": "2026-07-06",
+      "label": "Golden State Valkyries @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260706/20260706_GSVWAS_book.pdf"
+    },
+    {
+      "id": "401857044",
+      "date": "2026-07-06",
+      "label": "Connecticut Sun @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260706/20260706_CONMIN_book.pdf"
+    },
+    {
+      "id": "401857042",
+      "date": "2026-07-05",
+      "label": "Indiana Fever @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260705/20260705_INDLVA_book.pdf"
+    },
+    {
+      "id": "401857041",
+      "date": "2026-07-05",
+      "label": "Dallas Wings @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260705/20260705_DALTOR_book.pdf"
+    },
+    {
+      "id": "401857040",
+      "date": "2026-07-04",
+      "label": "Portland Fire @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401857039",
+      "date": "2026-07-04",
+      "label": "Golden State Valkyries @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260704/20260704_GSVATL_book.pdf"
+    },
+    {
+      "id": "401857037",
+      "date": "2026-07-03",
+      "label": "Minnesota Lynx @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260703/20260703_MINNYL_book.pdf"
+    },
+    {
+      "id": "401857038",
+      "date": "2026-07-03",
+      "label": "Chicago Sky @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260703/20260703_CHILVA_book.pdf"
+    },
+    {
+      "id": "401857036",
+      "date": "2026-07-02",
+      "label": "Seattle Storm @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260702/20260702_SEAPHX_book.pdf"
+    },
+    {
+      "id": "401857035",
+      "date": "2026-07-02",
+      "label": "Dallas Wings @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260702/20260702_DALCON_book.pdf"
+    },
+    {
+      "id": "401857034",
+      "date": "2026-07-02",
+      "label": "Atlanta Dream @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260702/20260702_ATLWAS_book.pdf"
+    },
+    {
+      "id": "401857321",
+      "date": "2026-06-30",
+      "label": "Las Vegas Aces @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260630/20260630_LVANYL_book.pdf"
+    },
+    {
+      "id": "401857031",
+      "date": "2026-06-28",
+      "label": "Portland Fire @ Washington Mystics",
+      "status": "Final"
+    },
+    {
+      "id": "401857033",
+      "date": "2026-06-28",
+      "label": "New York Liberty @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260628/20260628_NYLGSV_book.pdf"
+    },
+    {
+      "id": "401857030",
+      "date": "2026-06-28",
+      "label": "Minnesota Lynx @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260628/20260628_MINDAL_book.pdf"
+    },
+    {
+      "id": "401857032",
+      "date": "2026-06-28",
+      "label": "Las Vegas Aces @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260628/20260628_LVACHI_book.pdf"
+    },
+    {
+      "id": "401857027",
+      "date": "2026-06-27",
+      "label": "Phoenix Mercury @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260627/20260627_PHXTOR_book.pdf"
+    },
+    {
+      "id": "401857028",
+      "date": "2026-06-27",
+      "label": "Los Angeles Sparks @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260627/20260627_LASIND_book.pdf"
+    },
+    {
+      "id": "401857029",
+      "date": "2026-06-27",
+      "label": "Atlanta Dream @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260627/20260627_ATLSEA_book.pdf"
+    },
+    {
+      "id": "401857024",
+      "date": "2026-06-26",
+      "label": "Washington Mystics @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260626/20260626_WASCON_book.pdf"
+    },
+    {
+      "id": "401857025",
+      "date": "2026-06-26",
+      "label": "Portland Fire @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401857026",
+      "date": "2026-06-26",
+      "label": "Atlanta Dream @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260626/20260626_ATLGSV_book.pdf"
+    },
+    {
+      "id": "401857023",
+      "date": "2026-06-25",
+      "label": "New York Liberty @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260625/20260625_NYLSEA_book.pdf"
+    },
+    {
+      "id": "401857021",
+      "date": "2026-06-25",
+      "label": "Los Angeles Sparks @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260625/20260625_LASTOR_book.pdf"
+    },
+    {
+      "id": "401857022",
+      "date": "2026-06-25",
+      "label": "Dallas Wings @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260625/20260625_DALLVA_book.pdf"
+    },
+    {
+      "id": "401857019",
+      "date": "2026-06-24",
+      "label": "Portland Fire @ Chicago Sky",
+      "status": "Final"
+    },
+    {
+      "id": "401857017",
+      "date": "2026-06-24",
+      "label": "Phoenix Mercury @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260624/20260624_PHXIND_book.pdf"
+    },
+    {
+      "id": "401857018",
+      "date": "2026-06-24",
+      "label": "Minnesota Lynx @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260624/20260624_MINWAS_book.pdf"
+    },
+    {
+      "id": "401857020",
+      "date": "2026-06-24",
+      "label": "Atlanta Dream @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260624/20260624_ATLGSV_book.pdf"
+    },
+    {
+      "id": "401857016",
+      "date": "2026-06-23",
+      "label": "New York Liberty @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260623/20260623_NYLLVA_book.pdf"
+    },
+    {
+      "id": "401857013",
+      "date": "2026-06-22",
+      "label": "Toronto Tempo @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260622/20260622_TORATL_book.pdf"
+    },
+    {
+      "id": "401857014",
+      "date": "2026-06-22",
+      "label": "Phoenix Mercury @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260622/20260622_PHXIND_book.pdf"
+    },
+    {
+      "id": "401857015",
+      "date": "2026-06-22",
+      "label": "Dallas Wings @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260622/20260622_DALSEA_book.pdf"
+    },
+    {
+      "id": "401857012",
+      "date": "2026-06-22",
+      "label": "Chicago Sky @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260622/20260622_CHICON_book.pdf"
+    },
+    {
+      "id": "401857010",
+      "date": "2026-06-21",
+      "label": "Washington Mystics @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260621/20260621_WASMIN_book.pdf"
+    },
+    {
+      "id": "401857011",
+      "date": "2026-06-21",
+      "label": "New York Liberty @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260621/20260621_NYLLAS_book.pdf"
+    },
+    {
+      "id": "401857009",
+      "date": "2026-06-21",
+      "label": "Golden State Valkyries @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260621/20260621_GSVLVA_book.pdf"
+    },
+    {
+      "id": "401857007",
+      "date": "2026-06-20",
+      "label": "Seattle Storm @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260620/20260620_SEAPHX_book.pdf"
+    },
+    {
+      "id": "401857006",
+      "date": "2026-06-20",
+      "label": "Indiana Fever @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260620/20260620_INDATL_book.pdf"
+    },
+    {
+      "id": "401857008",
+      "date": "2026-06-20",
+      "label": "Chicago Sky @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260620/20260620_CHIDAL_book.pdf"
+    },
+    {
+      "id": "401857004",
+      "date": "2026-06-19",
+      "label": "Washington Mystics @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260619/20260619_WASNYL_book.pdf"
+    },
+    {
+      "id": "401857003",
+      "date": "2026-06-19",
+      "label": "Toronto Tempo @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260619/20260619_TORCON_book.pdf"
+    },
+    {
+      "id": "401857005",
+      "date": "2026-06-19",
+      "label": "Minnesota Lynx @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260619/20260619_MINGSV_book.pdf"
+    },
+    {
+      "id": "401857002",
+      "date": "2026-06-18",
+      "label": "Atlanta Dream @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260618/20260618_ATLIND_book.pdf"
+    },
+    {
+      "id": "401856996",
+      "date": "2026-06-17",
+      "label": "Washington Mystics @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260617/20260617_WASCON_book.pdf"
+    },
+    {
+      "id": "401857001",
+      "date": "2026-06-17",
+      "label": "Seattle Storm @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856997",
+      "date": "2026-06-17",
+      "label": "New York Liberty @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260617/20260617_NYLCHI_book.pdf"
+    },
+    {
+      "id": "401856999",
+      "date": "2026-06-17",
+      "label": "Minnesota Lynx @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260617/20260617_MINLAS_book.pdf"
+    },
+    {
+      "id": "401857000",
+      "date": "2026-06-17",
+      "label": "Las Vegas Aces @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260617/20260617_LVAPHX_book.pdf"
+    },
+    {
+      "id": "401856998",
+      "date": "2026-06-17",
+      "label": "Dallas Wings @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260617/20260617_DALGSV_book.pdf"
+    },
+    {
+      "id": "401856995",
+      "date": "2026-06-16",
+      "label": "Toronto Tempo @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260616/20260616_TORIND_book.pdf"
+    },
+    {
+      "id": "401856993",
+      "date": "2026-06-15",
+      "label": "Portland Fire @ Minnesota Lynx",
+      "status": "Final"
+    },
+    {
+      "id": "401856994",
+      "date": "2026-06-15",
+      "label": "Los Angeles Sparks @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260615/20260615_LASGSV_book.pdf"
+    },
+    {
+      "id": "401856992",
+      "date": "2026-06-15",
+      "label": "Las Vegas Aces @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260615/20260615_LVADAL_book.pdf"
+    },
+    {
+      "id": "401856990",
+      "date": "2026-06-14",
+      "label": "Washington Mystics @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260614/20260614_WASNYL_book.pdf"
+    },
+    {
+      "id": "401856991",
+      "date": "2026-06-14",
+      "label": "Atlanta Dream @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260614/20260614_ATLTOR_book.pdf"
+    },
+    {
+      "id": "401856987",
+      "date": "2026-06-13",
+      "label": "Minnesota Lynx @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260613/20260613_MINLVA_book.pdf"
+    },
+    {
+      "id": "401856989",
+      "date": "2026-06-13",
+      "label": "Los Angeles Sparks @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260613/20260613_LASPHX_book.pdf"
+    },
+    {
+      "id": "401856986",
+      "date": "2026-06-13",
+      "label": "Indiana Fever @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260613/20260613_INDCON_book.pdf"
+    },
+    {
+      "id": "401856988",
+      "date": "2026-06-13",
+      "label": "Dallas Wings @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856984",
+      "date": "2026-06-12",
+      "label": "Toronto Tempo @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260612/20260612_TORWAS_book.pdf"
+    },
+    {
+      "id": "401856985",
+      "date": "2026-06-12",
+      "label": "Golden State Valkyries @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260612/20260612_GSVSEA_book.pdf"
+    },
+    {
+      "id": "401856982",
+      "date": "2026-06-11",
+      "label": "Phoenix Mercury @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260611/20260611_PHXDAL_book.pdf"
+    },
+    {
+      "id": "401856981",
+      "date": "2026-06-11",
+      "label": "New York Liberty @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260611/20260611_NYLATL_book.pdf"
+    },
+    {
+      "id": "401856983",
+      "date": "2026-06-11",
+      "label": "Las Vegas Aces @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856980",
+      "date": "2026-06-11",
+      "label": "Chicago Sky @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260611/20260611_CHIIND_book.pdf"
+    },
+    {
+      "id": "401856979",
+      "date": "2026-06-10",
+      "label": "Los Angeles Sparks @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260610/20260610_LASSEA_book.pdf"
+    },
+    {
+      "id": "401856978",
+      "date": "2026-06-10",
+      "label": "Connecticut Sun @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260610/20260610_CONTOR_book.pdf"
+    },
+    {
+      "id": "401856977",
+      "date": "2026-06-09",
+      "label": "Phoenix Mercury @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260609/20260609_PHXGSV_book.pdf"
+    },
+    {
+      "id": "401856976",
+      "date": "2026-06-09",
+      "label": "Dallas Wings @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260609/20260609_DALMIN_book.pdf"
+    },
+    {
+      "id": "401856975",
+      "date": "2026-06-09",
+      "label": "Atlanta Dream @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260609/20260609_ATLCHI_book.pdf"
+    },
+    {
+      "id": "401856974",
+      "date": "2026-06-08",
+      "label": "Seattle Storm @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260608/20260608_SEALVA_book.pdf"
+    },
+    {
+      "id": "401856972",
+      "date": "2026-06-08",
+      "label": "New York Liberty @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260608/20260608_NYLCON_book.pdf"
+    },
+    {
+      "id": "401856973",
+      "date": "2026-06-08",
+      "label": "Indiana Fever @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260608/20260608_INDWAS_book.pdf"
+    },
+    {
+      "id": "401856971",
+      "date": "2026-06-07",
+      "label": "Portland Fire @ Los Angeles Sparks",
+      "status": "Final"
+    },
+    {
+      "id": "401856970",
+      "date": "2026-06-07",
+      "label": "Chicago Sky @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260607/20260607_CHITOR_book.pdf"
+    },
+    {
+      "id": "401856968",
+      "date": "2026-06-06",
+      "label": "Washington Mystics @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260606/20260606_WASATL_book.pdf"
+    },
+    {
+      "id": "401856966",
+      "date": "2026-06-06",
+      "label": "Seattle Storm @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260606/20260606_SEAMIN_book.pdf"
+    },
+    {
+      "id": "401856969",
+      "date": "2026-06-06",
+      "label": "Indiana Fever @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260606/20260606_INDNYL_book.pdf"
+    },
+    {
+      "id": "401856967",
+      "date": "2026-06-06",
+      "label": "Golden State Valkyries @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260606/20260606_GSVLVA_book.pdf"
+    },
+    {
+      "id": "401856965",
+      "date": "2026-06-05",
+      "label": "Phoenix Mercury @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856964",
+      "date": "2026-06-05",
+      "label": "Dallas Wings @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260605/20260605_DALLAS_book.pdf"
+    },
+    {
+      "id": "401856963",
+      "date": "2026-06-05",
+      "label": "Connecticut Sun @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260605/20260605_CONCHI_book.pdf"
+    },
+    {
+      "id": "401856962",
+      "date": "2026-06-04",
+      "label": "Golden State Valkyries @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260604/20260604_GSVMIN_book.pdf"
+    },
+    {
+      "id": "401856961",
+      "date": "2026-06-04",
+      "label": "Atlanta Dream @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260604/20260604_ATLIND_book.pdf"
+    },
+    {
+      "id": "401856959",
+      "date": "2026-06-03",
+      "label": "Toronto Tempo @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260603/20260603_TORNYL_book.pdf"
+    },
+    {
+      "id": "401856960",
+      "date": "2026-06-03",
+      "label": "Phoenix Mercury @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260603/20260603_PHXSEA_book.pdf"
+    },
+    {
+      "id": "401856957",
+      "date": "2026-06-02",
+      "label": "Portland Fire @ Golden State Valkyries",
+      "status": "Final"
+    },
+    {
+      "id": "401856958",
+      "date": "2026-06-02",
+      "label": "Las Vegas Aces @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260602/20260602_LVALAS_book.pdf"
+    },
+    {
+      "id": "401856955",
+      "date": "2026-06-02",
+      "label": "Connecticut Sun @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260602/20260602_CONATL_book.pdf"
+    },
+    {
+      "id": "401856956",
+      "date": "2026-06-02",
+      "label": "Chicago Sky @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260602/20260602_CHIWAS_book.pdf"
+    },
+    {
+      "id": "401856953",
+      "date": "2026-06-01",
+      "label": "Seattle Storm @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260601/20260601_SEADAL_book.pdf"
+    },
+    {
+      "id": "401856954",
+      "date": "2026-06-01",
+      "label": "Minnesota Lynx @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260601/20260601_MINPHX_book.pdf"
+    },
+    {
+      "id": "401856952",
+      "date": "2026-05-31",
+      "label": "Las Vegas Aces @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260531/20260531_LVAGSV_book.pdf"
+    },
+    {
+      "id": "401856949",
+      "date": "2026-05-30",
+      "label": "Seattle Storm @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260530/20260530_SEATOR_book.pdf"
+    },
+    {
+      "id": "401856950",
+      "date": "2026-05-30",
+      "label": "Los Angeles Sparks @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260530/20260530_LASCON_book.pdf"
+    },
+    {
+      "id": "401856951",
+      "date": "2026-05-30",
+      "label": "Indiana Fever @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856945",
+      "date": "2026-05-29",
+      "label": "Phoenix Mercury @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260529/20260529_PHXNYL_book.pdf"
+    },
+    {
+      "id": "401856947",
+      "date": "2026-05-29",
+      "label": "Minnesota Lynx @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260529/20260529_MINCHI_book.pdf"
+    },
+    {
+      "id": "401856946",
+      "date": "2026-05-29",
+      "label": "Los Angeles Sparks @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260529/20260529_LASWAS_book.pdf"
+    },
+    {
+      "id": "401856948",
+      "date": "2026-05-29",
+      "label": "Atlanta Dream @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856943",
+      "date": "2026-05-28",
+      "label": "Las Vegas Aces @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260528/20260528_LVADAL_book.pdf"
+    },
+    {
+      "id": "401856944",
+      "date": "2026-05-28",
+      "label": "Indiana Fever @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260528/20260528_INDGSV_book.pdf"
+    },
+    {
+      "id": "401856942",
+      "date": "2026-05-27",
+      "label": "Washington Mystics @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260527/20260527_WASSEA_book.pdf"
+    },
+    {
+      "id": "401856939",
+      "date": "2026-05-27",
+      "label": "Toronto Tempo @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260527/20260527_TORCHI_book.pdf"
+    },
+    {
+      "id": "401856938",
+      "date": "2026-05-27",
+      "label": "Phoenix Mercury @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260527/20260527_PHXNYL_book.pdf"
+    },
+    {
+      "id": "401856941",
+      "date": "2026-05-27",
+      "label": "Connecticut Sun @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856940",
+      "date": "2026-05-27",
+      "label": "Atlanta Dream @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260527/20260527_ATLMIN_book.pdf"
+    },
+    {
+      "id": "401856936",
+      "date": "2026-05-25",
+      "label": "Portland Fire @ New York Liberty",
+      "status": "Final"
+    },
+    {
+      "id": "401856937",
+      "date": "2026-05-25",
+      "label": "Connecticut Sun @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260525/20260525_CONGSV_book.pdf"
+    },
+    {
+      "id": "401856935",
+      "date": "2026-05-24",
+      "label": "Washington Mystics @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260524/20260524_WASSEA_book.pdf"
+    },
+    {
+      "id": "401856933",
+      "date": "2026-05-24",
+      "label": "Phoenix Mercury @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260524/20260524_PHXATL_book.pdf"
+    },
+    {
+      "id": "401856934",
+      "date": "2026-05-24",
+      "label": "Dallas Wings @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260524/20260524_DALNYL_book.pdf"
+    },
+    {
+      "id": "401856931",
+      "date": "2026-05-23",
+      "label": "Portland Fire @ Toronto Tempo",
+      "status": "Final"
+    },
+    {
+      "id": "401856930",
+      "date": "2026-05-23",
+      "label": "Minnesota Lynx @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260523/20260523_MINCHI_book.pdf"
+    },
+    {
+      "id": "401856932",
+      "date": "2026-05-23",
+      "label": "Los Angeles Sparks @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260523/20260523_LASLVA_book.pdf"
+    },
+    {
+      "id": "401856928",
+      "date": "2026-05-22",
+      "label": "Golden State Valkyries @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260522/20260522_GSVIND_book.pdf"
+    },
+    {
+      "id": "401856927",
+      "date": "2026-05-22",
+      "label": "Dallas Wings @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260522/20260522_DALATL_book.pdf"
+    },
+    {
+      "id": "401856929",
+      "date": "2026-05-22",
+      "label": "Connecticut Sun @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260522/20260522_CONSEA_book.pdf"
+    },
+    {
+      "id": "401856925",
+      "date": "2026-05-21",
+      "label": "Toronto Tempo @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260521/20260521_TORMIN_book.pdf"
+    },
+    {
+      "id": "401856926",
+      "date": "2026-05-21",
+      "label": "Los Angeles Sparks @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260521/20260521_LASPHX_book.pdf"
+    },
+    {
+      "id": "401856924",
+      "date": "2026-05-21",
+      "label": "Golden State Valkyries @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260521/20260521_GSVNYL_book.pdf"
+    },
+    {
+      "id": "401856921",
+      "date": "2026-05-20",
+      "label": "Portland Fire @ Indiana Fever",
+      "status": "Final"
+    },
+    {
+      "id": "401856922",
+      "date": "2026-05-20",
+      "label": "Dallas Wings @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260520/20260520_DALCHI_book.pdf"
+    },
+    {
+      "id": "401856923",
+      "date": "2026-05-20",
+      "label": "Connecticut Sun @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260520/20260520_CONSEA_book.pdf"
+    },
+    {
+      "id": "401856920",
+      "date": "2026-05-19",
+      "label": "Toronto Tempo @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260519/20260519_TORPHX_book.pdf"
+    },
+    {
+      "id": "401856918",
+      "date": "2026-05-18",
+      "label": "Washington Mystics @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260518/20260518_WASDAL_book.pdf"
+    },
+    {
+      "id": "401856919",
+      "date": "2026-05-18",
+      "label": "Connecticut Sun @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856917",
+      "date": "2026-05-17",
+      "label": "Toronto Tempo @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260517/20260517_TORLAS_book.pdf"
+    },
+    {
+      "id": "401856916",
+      "date": "2026-05-17",
+      "label": "Seattle Storm @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260517/20260517_SEAIND_book.pdf"
+    },
+    {
+      "id": "401856915",
+      "date": "2026-05-17",
+      "label": "Las Vegas Aces @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260517/20260517_LVAATL_book.pdf"
+    },
+    {
+      "id": "401856914",
+      "date": "2026-05-17",
+      "label": "Chicago Sky @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260517/20260517_CHIMIN_book.pdf"
+    },
+    {
+      "id": "401856911",
+      "date": "2026-05-15",
+      "label": "Washington Mystics @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260515/20260515_WASIND_book.pdf"
+    },
+    {
+      "id": "401856912",
+      "date": "2026-05-15",
+      "label": "Toronto Tempo @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260515/20260515_TORLAS_book.pdf"
+    },
+    {
+      "id": "401856910",
+      "date": "2026-05-15",
+      "label": "Las Vegas Aces @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260515/20260515_LVACON_book.pdf"
+    },
+    {
+      "id": "401856913",
+      "date": "2026-05-15",
+      "label": "Chicago Sky @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260515/20260515_CHIPHX_book.pdf"
+    },
+    {
+      "id": "401856909",
+      "date": "2026-05-14",
+      "label": "New York Liberty @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856908",
+      "date": "2026-05-14",
+      "label": "Minnesota Lynx @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260514/20260514_MINDAL_book.pdf"
+    },
+    {
+      "id": "401856904",
+      "date": "2026-05-13",
+      "label": "Seattle Storm @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260513/20260513_SEATOR_book.pdf"
+    },
+    {
+      "id": "401856905",
+      "date": "2026-05-13",
+      "label": "Las Vegas Aces @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260513/20260513_LVACON_book.pdf"
+    },
+    {
+      "id": "401856907",
+      "date": "2026-05-13",
+      "label": "Indiana Fever @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260513/20260513_INDLAS_book.pdf"
+    },
+    {
+      "id": "401856906",
+      "date": "2026-05-13",
+      "label": "Chicago Sky @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260513/20260513_CHIGSV_book.pdf"
+    },
+    {
+      "id": "401856903",
+      "date": "2026-05-12",
+      "label": "New York Liberty @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856902",
+      "date": "2026-05-12",
+      "label": "Minnesota Lynx @ Phoenix Mercury",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260512/20260512_MINPHX_book.pdf"
+    },
+    {
+      "id": "401856901",
+      "date": "2026-05-12",
+      "label": "Atlanta Dream @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260512/20260512_ATLDAL_book.pdf"
+    },
+    {
+      "id": "401856896",
+      "date": "2026-05-10",
+      "label": "Seattle Storm @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260510/20260510_SEACON_book.pdf"
+    },
+    {
+      "id": "401856900",
+      "date": "2026-05-10",
+      "label": "Phoenix Mercury @ Golden State Valkyries",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260510/20260510_PHXGSV_book.pdf"
+    },
+    {
+      "id": "401856897",
+      "date": "2026-05-10",
+      "label": "New York Liberty @ Washington Mystics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260510/20260510_NYLWAS_book.pdf"
+    },
+    {
+      "id": "401856898",
+      "date": "2026-05-10",
+      "label": "Las Vegas Aces @ Los Angeles Sparks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260510/20260510_LVALAS_book.pdf"
+    },
+    {
+      "id": "401856894",
+      "date": "2026-05-09",
+      "label": "Phoenix Mercury @ Las Vegas Aces",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260509/20260509_PHXLVA_book.pdf"
+    },
+    {
+      "id": "401856893",
+      "date": "2026-05-09",
+      "label": "Dallas Wings @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260509/20260509_DALIND_book.pdf"
+    },
+    {
+      "id": "401856895",
+      "date": "2026-05-09",
+      "label": "Chicago Sky @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401856899",
+      "date": "2026-05-09",
+      "label": "Atlanta Dream @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260509/20260509_ATLMIN_book.pdf"
+    },
+    {
+      "id": "401856891",
+      "date": "2026-05-08",
+      "label": "Washington Mystics @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260508/20260508_WASTOR_book.pdf"
+    },
+    {
+      "id": "401856892",
+      "date": "2026-05-08",
+      "label": "Golden State Valkyries @ Seattle Storm",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260508/20260508_GSVSEA_book.pdf"
+    },
+    {
+      "id": "401856890",
+      "date": "2026-05-08",
+      "label": "Connecticut Sun @ New York Liberty",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260508/20260508_CONNYL_book.pdf"
+    },
+    {
+      "id": "401867795",
+      "date": "2026-05-03",
+      "label": "Washington Mystics @ Atlanta Dream",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260503/20260503_WASATL_book.pdf"
+    },
+    {
+      "id": "401866519",
+      "date": "2026-05-03",
+      "label": "New York Liberty @ Connecticut Sun",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260503/20260503_NYLCON_book.pdf"
+    },
+    {
+      "id": "401866521",
+      "date": "2026-05-03",
+      "label": "Los Angeles Sparks @ Portland Fire",
+      "status": "Final"
+    },
+    {
+      "id": "401866520",
+      "date": "2026-05-03",
+      "label": "Las Vegas Aces @ Dallas Wings",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260503/20260503_LVADAL_book.pdf"
+    },
+    {
+      "id": "401867793",
+      "date": "2026-05-01",
+      "label": "Toronto Tempo @ Minnesota Lynx",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260501/20260501_TORMIN_book.pdf"
+    },
+    {
+      "id": "401866518",
+      "date": "2026-04-30",
+      "label": "Dallas Wings @ Indiana Fever",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260430/20260430_DALIND_book.pdf"
+    },
+    {
+      "id": "401866516",
+      "date": "2026-04-29",
+      "label": "Portland Fire @ Seattle Storm",
+      "status": "Final"
+    },
+    {
+      "id": "401867792",
+      "date": "2026-04-29",
+      "label": "JAPAN @ Phoenix Mercury",
+      "status": "Final"
+    },
+    {
+      "id": "401866515",
+      "date": "2026-04-29",
+      "label": "Connecticut Sun @ Toronto Tempo",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260429/20260429_CONTOR_book.pdf"
+    },
+    {
+      "id": "401866517",
+      "date": "2026-04-29",
+      "label": "Atlanta Dream @ Chicago Sky",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260429/20260429_ATLCHI_book.pdf"
+    },
+    {
+      "id": "401869973",
+      "date": "2026-04-26",
+      "label": "JAPAN @ Las Vegas Aces",
+      "status": "Final"
+    },
     {
       "id": "401866514",
       "date": "2026-04-25",
