@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T01:25:40.735959+00:00",
+  "updated_at": "2026-11-22T01:36:40.445926+00:00",
   "games": [
     {
       "id": "401910031",
@@ -47,7 +47,7 @@
       "id": "401910024",
       "date": "2026-11-21",
       "label": "Portland Trail Blazers @ New York Knicks",
-      "status": "In Progress"
+      "status": "Halftime"
     },
     {
       "id": "401910027",
@@ -72,7 +72,7 @@
       "id": "401910025",
       "date": "2026-11-21",
       "label": "LA Clippers @ Dallas Mavericks",
-      "status": "In Progress"
+      "status": "End of Period"
     },
     {
       "id": "401910028",

@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 20, 2026 – Nov 21, 2026 (ET)",
-  "updated_at": "2026-11-22T00:15:12.883374+00:00",
+  "updated_at": "2026-11-22T01:36:40.394924+00:00",
   "games": [
     {
       "id": "401909305",
@@ -75,13 +75,13 @@
       "id": "401910025",
       "date": "2026-11-21",
       "label": "LA Clippers @ Dallas Mavericks",
-      "status": "Scheduled"
+      "status": "End of Period"
     },
     {
       "id": "401910026",
       "date": "2026-11-21",
       "label": "Memphis Grizzlies @ Minnesota Timberwolves",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910023",
@@ -94,13 +94,13 @@
       "id": "401910027",
       "date": "2026-11-21",
       "label": "New Orleans Pelicans @ San Antonio Spurs",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910024",
       "date": "2026-11-21",
       "label": "Portland Trail Blazers @ New York Knicks",
-      "status": "Scheduled"
+      "status": "Halftime"
     }
   ]
 }
