@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 21, 2026 – Nov 22, 2026 (ET)",
-  "updated_at": "2026-11-22T22:47:58.544047+00:00",
+  "updated_at": "2026-11-22T23:29:08.316817+00:00",
   "games": [
     {
       "id": "401910028",
@@ -66,7 +66,8 @@
       "id": "401910029",
       "date": "2026-11-22",
       "label": "Detroit Pistons @ Atlanta Hawks",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261122/20261122_DETATL_book.pdf"
     },
     {
       "id": "401910034",
@@ -78,7 +79,7 @@
       "id": "401910030",
       "date": "2026-11-22",
       "label": "Oklahoma City Thunder @ Miami Heat",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910031",
