@@ -32,6 +32,11 @@ def main():
     check("gamebooks.json" in html, "Dashboard is not referencing current feed")
     check("archive.json" in html, "Dashboard is not referencing archive")
     print("PASS dashboard feed references")
+    # WNBA is published from this repository and must be covered as well.
+    for filename in ("wnba/gamebooks.json", "wnba/archive.json"):
+        data = json.loads(Path(filename).read_text(encoding="utf-8"))
+        check(isinstance(data.get("games"), list), filename + " needs games list")
+        print("PASS WNBA feed:", filename, len(data["games"]))
     print("PASS all read-only checks")
 
 if __name__ == "__main__":
