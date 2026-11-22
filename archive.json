@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T06:10:28.860727+00:00",
+  "updated_at": "2026-11-22T06:32:27.209700+00:00",
   "games": [
     {
       "id": "401910031",
@@ -82,7 +82,8 @@
       "id": "401910028",
       "date": "2026-11-21",
       "label": "Boston Celtics @ Sacramento Kings",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261121/20261121_BOSSAC_book.pdf"
     },
     {
       "id": "401909309",

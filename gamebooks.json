@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 20, 2026 – Nov 21, 2026 (ET)",
-  "updated_at": "2026-11-22T05:34:35.938678+00:00",
+  "updated_at": "2026-11-22T06:32:27.152144+00:00",
   "games": [
     {
       "id": "401909305",
@@ -69,7 +69,8 @@
       "id": "401910028",
       "date": "2026-11-21",
       "label": "Boston Celtics @ Sacramento Kings",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261121/20261121_BOSSAC_book.pdf"
     },
     {
       "id": "401910025",
