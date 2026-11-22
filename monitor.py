@@ -118,6 +118,18 @@ def main() -> None:
                     games.append(g)
         except (OSError, ValueError):
             pass
+    # Completeness guard: a successful but partial schedule response must not erase games.
+    try:
+        prior_data = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        known = {str(g["id"]): g for g in prior_data.get("games", []) if g.get("date") in {d.isoformat() for d in days} and g.get("id")}
+        seen = {str(g["id"]) for g in games}
+        missing = [g for gid, g in known.items() if gid not in seen]
+        if missing:
+            LOG.warning("SCHEDULE COMPLETENESS ALERT: %d previously known NBA games missing from source; retaining them", len(missing))
+            games.extend(missing)
+            failures.append("partial schedule: " + ", ".join(g["date"] for g in missing))
+    except (OSError, ValueError, KeyError, TypeError):
+        pass
     games.sort(key=lambda g: (g["date"], g["label"]))
     payload = {
         "window_label": f"{days[0]:%b %d, %Y} – {days[1]:%b %d, %Y} (ET)",
