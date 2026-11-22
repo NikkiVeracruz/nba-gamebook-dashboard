@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-22T20:29:03.777099+00:00",
+  "updated_at": "2026-11-22T21:11:33.797258+00:00",
   "games": [
     {
       "id": "401910031",
@@ -23,7 +23,7 @@
       "id": "401910029",
       "date": "2026-11-22",
       "label": "Detroit Pistons @ Atlanta Hawks",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910032",
