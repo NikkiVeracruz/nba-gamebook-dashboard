@@ -1,6 +1,66 @@
 {
-  "updated_at": "2026-11-22T23:29:08.376254+00:00",
+  "updated_at": "2026-11-23T00:13:43.751777+00:00",
   "games": [
+    {
+      "id": "401910044",
+      "date": "2026-11-23",
+      "label": "Utah Jazz @ Los Angeles Lakers",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910045",
+      "date": "2026-11-23",
+      "label": "San Antonio Spurs @ Sacramento Kings",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910037",
+      "date": "2026-11-23",
+      "label": "Portland Trail Blazers @ Philadelphia 76ers",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910042",
+      "date": "2026-11-23",
+      "label": "Phoenix Suns @ New Orleans Pelicans",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910038",
+      "date": "2026-11-23",
+      "label": "Oklahoma City Thunder @ Indiana Pacers",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910039",
+      "date": "2026-11-23",
+      "label": "Milwaukee Bucks @ Toronto Raptors",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910036",
+      "date": "2026-11-23",
+      "label": "Memphis Grizzlies @ Charlotte Hornets",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910043",
+      "date": "2026-11-23",
+      "label": "LA Clippers @ Houston Rockets",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910041",
+      "date": "2026-11-23",
+      "label": "Cleveland Cavaliers @ Chicago Bulls",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910040",
+      "date": "2026-11-23",
+      "label": "Brooklyn Nets @ Minnesota Timberwolves",
+      "status": "Scheduled"
+    },
     {
       "id": "401910031",
       "date": "2026-11-22",
