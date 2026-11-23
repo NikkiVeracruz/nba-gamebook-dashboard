@@ -11,6 +11,9 @@ from pathlib import Path
 import requests
 import archive
 import wnba_archive
+import wnba_monitor
+import monitor as nba_monitor
+import re
 
 URL="https://site.api.espn.com/apis/site/v2/sports/basketball/"
 SPECIAL={
@@ -34,6 +37,31 @@ def type_of(league, day):
     if day=="2026-07-25":
         return "wnba_all_star"
     return "wnba_exhibition"
+
+
+def nba_special_code(name):
+    text=str(name or "").lower()
+    for word,code in (("world","WLD"),("stripes","STP"),("stars","STR")):
+        if re.search(r"\b"+word+r"\b",text):
+            return code
+    return None
+
+
+def try_official_pdf(league, day, away, home, session):
+    if league=="WNBA":
+        away_code=wnba_monitor.wnba_code(away.get("abbreviation",""))
+        home_code=wnba_monitor.wnba_code(home.get("abbreviation",""))
+        checker=wnba_monitor.valid_pdf
+    else:
+        away_code=nba_special_code(away.get("displayName") or away.get("name"))
+        home_code=nba_special_code(home.get("displayName") or home.get("name"))
+        checker=nba_monitor.valid_pdf
+    if not (away_code and home_code and len(away_code)==len(home_code)==3
+            and away_code.isalpha() and home_code.isalpha()):
+        return None
+    d=day.replace("-","")
+    url=f"https://statsdmz.nba.com/pdfs/{d}/{d}_{away_code}{home_code}_book.pdf"
+    return url if checker(session,url) else None
 
 
 def fetch_special(league, session=None):
@@ -72,16 +100,34 @@ def fetch_special(league, session=None):
                 if kickoff.astimezone(ZoneInfo("America/New_York")).date().isoformat()!=day:
                     raise ValueError(f"Special event {gid} ESPN date mismatch {day}")
             kind=type_of(league,day)
-            events.append({
+            away_team=next(c.get("team") or {} for c in comp.get("competitors",[])
+                           if c.get("homeAway")=="away")
+            home_team=next(c.get("team") or {} for c in comp.get("competitors",[])
+                           if c.get("homeAway")=="home")
+            verified=try_official_pdf(league,day,away_team,home_team,session)
+            event_record={
                 "id":gid,"date":day,
                 "label":f"{sides['away']} @ {sides['home']}",
                 "status":status.get("description") or "Final",
                 "competition":kind,
-                "report_requirement":"special_event_needs_review",
-            })
+                "report_requirement":"verified" if verified else "special_event_needs_review",
+            }
+            if verified:event_record["pdf_url"]=verified
+            events.append(event_record)
             seen.add(gid)
         if seen!=ids:
             raise ValueError(f"{league} missing official IDs on {day}: {sorted(ids-seen)}")
+    # The NBA tournament can include repeated games between identical teams.
+    # A single date+pair PDF is not enough to identify which game it belongs to.
+    if league=="NBA":
+        import collections
+        counts=collections.Counter(tuple(sorted(str(g["label"]).lower().split(" @ ")))
+                                   for g in events)
+        for g in events:
+            pair=tuple(sorted(str(g["label"]).lower().split(" @ ")))
+            if counts[pair]>1:
+                g.pop("pdf_url",None)
+                g["report_requirement"]="special_event_needs_review"
     return events
 
 
@@ -107,7 +153,8 @@ def reconcile(league, session=None, path=None, summary_path=None):
         "events":[
             {"id":e["id"],"date":e["date"],"label":e["label"],
              "competition":e["competition"],
-             "report_requirement":"special_event_needs_review"}
+             "report_requirement":e["report_requirement"],
+             "pdf_url":e.get("pdf_url")}
             for e in sorted(events,key=lambda g:(g["date"],g["id"]),reverse=True)
         ],
     }
