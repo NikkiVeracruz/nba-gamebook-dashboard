@@ -25,7 +25,7 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; WNBAGamebookDashboard/1.0)", 
 LOG = logging.getLogger("wnba-gamebooks")
 
 # ESPN's abbreviations can differ from the WNBA's official PDF naming scheme.
-WNBA_CODES = {"NY":"NYL","NYL":"NYL","LV":"LVA","LVA":"LVA","LA":"LAS","LAS":"LAS","PHO":"PHX","PHX":"PHX","WSH":"WAS","WAS":"WAS","CON":"CON","CT":"CON","GS":"GSV","GSV":"GSV","SEA":"SEA","ATL":"ATL","DAL":"DAL","MIN":"MIN","IND":"IND","CHI":"CHI","POR":"POR","TOR":"TOR"}
+WNBA_CODES = {"NY":"NYL","NYL":"NYL","LV":"LVA","LVA":"LVA","LA":"LAS","LAS":"LAS","PHO":"PHX","PHX":"PHX","WSH":"WAS","WAS":"WAS","CON":"CON","CT":"CON","GS":"GSV","GSV":"GSV","SEA":"SEA","ATL":"ATL","DAL":"DAL","MIN":"MIN","IND":"IND","CHI":"CHI","POR":"PDX","PDX":"PDX","TOR":"TOR"}
 
 def wnba_code(value: str) -> str:
     code = value.upper().strip()
