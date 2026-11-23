@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T06:54:17.079741+00:00",
+  "updated_at": "2026-11-23T07:02:04.812065+00:00",
   "games": [
     {
       "id": "401910044",
@@ -5779,6 +5779,40 @@
       "label": "Atlanta Hawks @ Philadelphia 76ers",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20260219/20260219_ATLPHI_book.pdf"
+    },
+    {
+      "id": "401838142",
+      "date": "2026-02-15",
+      "label": "World @ Team Stripes",
+      "status": "Final",
+      "competition": "nba_all_star",
+      "report_requirement": "verified",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260215/20260215_WLDSTP_book.pdf"
+    },
+    {
+      "id": "401838140",
+      "date": "2026-02-15",
+      "label": "World @ Team Stars",
+      "status": "Final",
+      "competition": "nba_all_star",
+      "report_requirement": "verified",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260215/20260215_WLDSTR_book.pdf"
+    },
+    {
+      "id": "401838141",
+      "date": "2026-02-15",
+      "label": "Team Stars @ Team Stripes",
+      "status": "Final",
+      "competition": "nba_all_star",
+      "report_requirement": "special_event_needs_review"
+    },
+    {
+      "id": "401838143",
+      "date": "2026-02-15",
+      "label": "Team Stars @ Team Stripes",
+      "status": "Final",
+      "competition": "nba_all_star",
+      "report_requirement": "special_event_needs_review"
     },
     {
       "id": "401810645",

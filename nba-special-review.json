@@ -1,0 +1,40 @@
+{
+  "league": "NBA",
+  "year": 2026,
+  "matched_special_events": 4,
+  "new_records_added": 4,
+  "events": [
+    {
+      "id": "401838143",
+      "date": "2026-02-15",
+      "label": "Team Stars @ Team Stripes",
+      "competition": "nba_all_star",
+      "report_requirement": "special_event_needs_review",
+      "pdf_url": null
+    },
+    {
+      "id": "401838142",
+      "date": "2026-02-15",
+      "label": "World @ Team Stripes",
+      "competition": "nba_all_star",
+      "report_requirement": "verified",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260215/20260215_WLDSTP_book.pdf"
+    },
+    {
+      "id": "401838141",
+      "date": "2026-02-15",
+      "label": "Team Stars @ Team Stripes",
+      "competition": "nba_all_star",
+      "report_requirement": "special_event_needs_review",
+      "pdf_url": null
+    },
+    {
+      "id": "401838140",
+      "date": "2026-02-15",
+      "label": "World @ Team Stars",
+      "competition": "nba_all_star",
+      "report_requirement": "verified",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260215/20260215_WLDSTR_book.pdf"
+    }
+  ]
+}
