@@ -4,6 +4,7 @@ import tempfile
 import unittest
 from datetime import datetime, timezone
 from pathlib import Path
+from unittest.mock import patch
 
 import reconcile_basketball_special_2026 as s
 
@@ -38,6 +39,12 @@ class Session:
 
 
 class BasketballSpecialTests(unittest.TestCase):
+    def setUp(self):
+        a=patch.object(s.wnba_monitor,"valid_pdf",return_value=False)
+        b=patch.object(s.nba_monitor,"valid_pdf",return_value=False)
+        a.start();b.start()
+        self.addCleanup(a.stop);self.addCleanup(b.stop)
+
     def test_all_expected_special_ids_require_verified_schedule(self):
         self.assertEqual(len(s.fetch_special("NBA",Session())),4)
         self.assertEqual(len(s.fetch_special("WNBA",Session())),4)
@@ -62,6 +69,22 @@ class BasketballSpecialTests(unittest.TestCase):
                 again=s.reconcile(league,Session(),path,review)
                 self.assertEqual(again["new_records_added"],0)
                 self.assertEqual(path.read_text(),before)
+
+    def test_official_pdf_candidate_requires_verified_bytes(self):
+        url=s.try_official_pdf("WNBA","2026-04-25",
+                               {"abbreviation":"NGR"},
+                               {"abbreviation":"LAS"},Session())
+        self.assertIsNone(url)
+        with patch.object(s.wnba_monitor,"valid_pdf",return_value=True):
+            url=s.try_official_pdf("WNBA","2026-04-25",
+                                   {"abbreviation":"NGR"},
+                                   {"abbreviation":"LAS"},Session())
+        self.assertEqual(url,"https://statsdmz.nba.com/pdfs/20260425/20260425_NGRLAS_book.pdf")
+        with patch.object(s.nba_monitor,"valid_pdf",return_value=True):
+            url=s.try_official_pdf("NBA","2026-02-15",
+                                   {"displayName":"World"},
+                                   {"displayName":"Stars"},Session())
+        self.assertEqual(url,"https://statsdmz.nba.com/pdfs/20260215/20260215_WLDSTR_book.pdf")
 
     def test_allstar_and_exhibition_classification(self):
         self.assertEqual(s.type_of("NBA","2026-02-15"),"nba_all_star")
