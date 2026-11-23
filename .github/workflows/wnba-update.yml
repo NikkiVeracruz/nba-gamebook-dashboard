@@ -22,6 +22,8 @@ jobs:
         run: python wnba_monitor.py
       - name: Update WNBA archive
         run: python wnba_archive.py
+      - name: Block loss of WNBA historical games or report links
+        run: python tests/archive_integrity_gate.py wnba/archive.json
       - name: Publish WNBA data
         run: |
           if [[ -n "$(git status --porcelain wnba/)" ]]; then
@@ -33,6 +35,8 @@ jobs:
               if git push origin HEAD:main; then exit 0; fi
               git fetch origin main
               git rebase -X theirs origin/main
+              # Verify the result still contains every report from the newer remote.
+              python tests/archive_integrity_gate.py wnba/archive.json --baseline-ref origin/main
               sleep 2
             done
             exit 1
