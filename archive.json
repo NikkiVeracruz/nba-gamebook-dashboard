@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T00:13:43.751777+00:00",
+  "updated_at": "2026-11-23T00:21:20.801569+00:00",
   "games": [
     {
       "id": "401910044",
@@ -65,7 +65,7 @@
       "id": "401910031",
       "date": "2026-11-22",
       "label": "Orlando Magic @ Washington Wizards",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910030",
@@ -90,13 +90,13 @@
       "id": "401910032",
       "date": "2026-11-22",
       "label": "Denver Nuggets @ Chicago Bulls",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910033",
       "date": "2026-11-22",
       "label": "Dallas Mavericks @ Utah Jazz",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910035",

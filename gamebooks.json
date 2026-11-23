@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 21, 2026 – Nov 22, 2026 (ET)",
-  "updated_at": "2026-11-22T23:29:08.316817+00:00",
+  "updated_at": "2026-11-23T00:21:20.748460+00:00",
   "games": [
     {
       "id": "401910028",
@@ -54,13 +54,13 @@
       "id": "401910033",
       "date": "2026-11-22",
       "label": "Dallas Mavericks @ Utah Jazz",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910032",
       "date": "2026-11-22",
       "label": "Denver Nuggets @ Chicago Bulls",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910029",
@@ -85,7 +85,7 @@
       "id": "401910031",
       "date": "2026-11-22",
       "label": "Orlando Magic @ Washington Wizards",
-      "status": "Scheduled"
+      "status": "In Progress"
     }
   ]
 }
