@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T03:33:10.917467+00:00",
+  "updated_at": "2026-11-23T03:45:04.330850+00:00",
   "games": [
     {
       "id": "401910044",
@@ -79,7 +79,8 @@
       "id": "401910034",
       "date": "2026-11-22",
       "label": "Indiana Pacers @ New York Knicks",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261122/20261122_INDNYK_book.pdf"
     },
     {
       "id": "401910029",
