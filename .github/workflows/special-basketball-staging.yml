@@ -1,0 +1,23 @@
+name: 2026 basketball special game archive reconciliation staging
+on:
+  push:
+    branches: [staging-basketball-special-2026-11-23]
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Verify all-star and international exhibition IDs and archive protection
+        run: |
+          python -m unittest discover -s tests -p 'test_basketball_special_2026.py' -v
+          python -m unittest discover -s tests -p 'test_wnba_archive_safety.py' -v
+      - name: Check existing archive and feed remain unchanged
+        run: git diff --exit-code -- archive.json wnba/archive.json gamebooks.json wnba/gamebooks.json
