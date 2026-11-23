@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish NBA gamebook PDF availability for today and yesterday (America/New_York).
+"""Publish NBA gamebook PDFs for yesterday, today, tomorrow (3 AM ET rollover).
 
 ESPN's public scoreboard supplies the schedule. Every displayed PDF is checked
 at the official NBA statsdmz host using its exact date and team abbreviations.
@@ -14,6 +14,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+import archive as archive_module
+from three_day_window import three_days, archive_outgoing_games
 
 ET = ZoneInfo("America/New_York")
 OUTPUT = Path("gamebooks.json")
@@ -98,18 +100,19 @@ def write_if_changed(path, payload):
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    # Archive disappearing dates *before* publishing the new three-day feed.
+    days = three_days()
+    archive_outgoing_games(OUTPUT, archive_module.ARCHIVE, days, archive_module)
     # Seasonal guard: keep the website live but avoid report scraping in the offseason.
     # Broad calendar boundaries allow preseason and late postseason games; the
     # schedule source itself determines which games actually appear.
     if datetime.now(ET).month not in [10,11,12,1,2,3,4,5,6] and not __import__("adaptive_monitor").should_poll("NBA"):
         now = datetime.now(timezone.utc).isoformat()
-        write_if_changed(OUTPUT, {"window_label": "Offseason", "updated_at": now, "offseason": True, "games": []})
+        write_if_changed(OUTPUT, {"window_label": f"{days[0]:%b %d, %Y} – {days[-1]:%b %d, %Y} (ET; 3 AM rollover)", "window_dates": [d.isoformat() for d in days], "updated_at": now, "offseason": True, "games": []})
         LOG.info("Offseason: skipping gamebook checks")
         return
 
     # Reporting day changes at 3:00 AM Eastern, including DST.
-    today = (datetime.now(ET) - timedelta(hours=3)).date()
-    days = [today - timedelta(days=1), today]
     session = requests.Session()
     session.headers.update(HEADERS)
     games = []
@@ -124,7 +127,7 @@ def main() -> None:
             failures.append(str(day))
     if failures:
         # Preserve existing data if the source is temporarily unavailable,
-        # but never preserve games outside the current two-day window.
+        # but never preserve games outside the current three-day window.
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
             existing = {g["id"]: g for g in games}
@@ -172,7 +175,8 @@ def main() -> None:
         LOG.warning("Could not restore previously verified report links: %s", exc)
     games.sort(key=lambda g: (g["date"], g["label"]))
     payload = {
-        "window_label": f"{days[0]:%b %d, %Y} – {days[1]:%b %d, %Y} (ET)",
+        "window_label": f"{days[0]:%b %d, %Y} – {days[-1]:%b %d, %Y} (ET; 3 AM rollover)",
+        "window_dates": [d.isoformat() for d in days],
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "games": games,
     }
@@ -181,7 +185,7 @@ def main() -> None:
     write_if_changed(OUTPUT, payload)
     LOG.info("Published %d games (%d verified PDFs)", len(games), sum("pdf_url" in g for g in games))
     if len(failures) == len(days):
-        raise RuntimeError("Both NBA scoreboard requests failed; check source availability")
+        raise RuntimeError("All three NBA scoreboard requests failed; check source availability")
 
 if __name__ == "__main__":
     main()
