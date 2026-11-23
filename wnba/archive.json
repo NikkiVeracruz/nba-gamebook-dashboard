@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T04:52:37.399457+00:00",
+  "updated_at": "2026-11-23T06:46:25.720266+00:00",
   "games": [
     {
       "id": "401918311",
@@ -236,7 +236,8 @@
       "id": "401857212",
       "date": "2026-09-22",
       "label": "Golden State Valkyries @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260922/20260922_GSVPDX_book.pdf"
     },
     {
       "id": "401857208",
@@ -277,7 +278,8 @@
       "id": "401857204",
       "date": "2026-09-20",
       "label": "Portland Fire @ Los Angeles Sparks",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260920/20260920_PDXLAS_book.pdf"
     },
     {
       "id": "401857202",
@@ -318,7 +320,8 @@
       "id": "401857197",
       "date": "2026-09-18",
       "label": "Portland Fire @ Golden State Valkyries",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260918/20260918_PDXGSV_book.pdf"
     },
     {
       "id": "401857196",
@@ -345,7 +348,8 @@
       "id": "401857193",
       "date": "2026-09-17",
       "label": "Phoenix Mercury @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260917/20260917_PHXPDX_book.pdf"
     },
     {
       "id": "401857192",
@@ -386,7 +390,8 @@
       "id": "401857188",
       "date": "2026-08-30",
       "label": "Golden State Valkyries @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260830/20260830_GSVPDX_book.pdf"
     },
     {
       "id": "401857189",
@@ -427,7 +432,8 @@
       "id": "401857180",
       "date": "2026-08-28",
       "label": "Portland Fire @ Atlanta Dream",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260828/20260828_PDXATL_book.pdf"
     },
     {
       "id": "401857181",
@@ -475,7 +481,8 @@
       "id": "401857174",
       "date": "2026-08-25",
       "label": "Portland Fire @ Dallas Wings",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260825/20260825_PDXDAL_book.pdf"
     },
     {
       "id": "401857173",
@@ -502,7 +509,8 @@
       "id": "401857169",
       "date": "2026-08-23",
       "label": "Washington Mystics @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260823/20260823_WASPDX_book.pdf"
     },
     {
       "id": "401857167",
@@ -550,7 +558,8 @@
       "id": "401857163",
       "date": "2026-08-21",
       "label": "Portland Fire @ Toronto Tempo",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260821/20260821_PDXTOR_book.pdf"
     },
     {
       "id": "401857161",
@@ -640,7 +649,8 @@
       "id": "401857149",
       "date": "2026-08-16",
       "label": "Portland Fire @ Phoenix Mercury",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260816/20260816_PDXPHX_book.pdf"
     },
     {
       "id": "401857150",
@@ -681,7 +691,8 @@
       "id": "401857144",
       "date": "2026-08-14",
       "label": "Portland Fire @ Seattle Storm",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260814/20260814_PDXSEA_book.pdf"
     },
     {
       "id": "401857143",
@@ -722,7 +733,8 @@
       "id": "401857139",
       "date": "2026-08-12",
       "label": "Minnesota Lynx @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260812/20260812_MINPDX_book.pdf"
     },
     {
       "id": "401857138",
@@ -798,7 +810,8 @@
       "id": "401857127",
       "date": "2026-08-08",
       "label": "Seattle Storm @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260808/20260808_SEAPDX_book.pdf"
     },
     {
       "id": "401857125",
@@ -839,7 +852,8 @@
       "id": "401857121",
       "date": "2026-08-06",
       "label": "Toronto Tempo @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260806/20260806_TORPDX_book.pdf"
     },
     {
       "id": "401857120",
@@ -922,7 +936,8 @@
       "id": "401857108",
       "date": "2026-08-02",
       "label": "Los Angeles Sparks @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260802/20260802_LASPDX_book.pdf"
     },
     {
       "id": "401857107",
@@ -963,7 +978,8 @@
       "id": "401857104",
       "date": "2026-07-31",
       "label": "Indiana Fever @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260731/20260731_INDPDX_book.pdf"
     },
     {
       "id": "401857103",
@@ -1018,7 +1034,8 @@
       "id": "401857095",
       "date": "2026-07-28",
       "label": "Portland Fire @ Las Vegas Aces",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260728/20260728_PDXLVA_book.pdf"
     },
     {
       "id": "401857096",
@@ -1066,7 +1083,8 @@
       "id": "401857091",
       "date": "2026-07-22",
       "label": "Dallas Wings @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260722/20260722_DALPDX_book.pdf"
     },
     {
       "id": "401857090",
@@ -1142,7 +1160,8 @@
       "id": "401857078",
       "date": "2026-07-18",
       "label": "Portland Fire @ Minnesota Lynx",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260718/20260718_PDXMIN_book.pdf"
     },
     {
       "id": "401857077",
@@ -1183,7 +1202,8 @@
       "id": "401857071",
       "date": "2026-07-16",
       "label": "Portland Fire @ Washington Mystics",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260716/20260716_PDXWAS_book.pdf"
     },
     {
       "id": "401857072",
@@ -1223,7 +1243,8 @@
       "id": "401857066",
       "date": "2026-07-14",
       "label": "Portland Fire @ Connecticut Sun",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260714/20260714_PDXCON_book.pdf"
     },
     {
       "id": "401857065",
@@ -1271,7 +1292,8 @@
       "id": "401857059",
       "date": "2026-07-11",
       "label": "Portland Fire @ Atlanta Dream",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260711/20260711_PDXATL_book.pdf"
     },
     {
       "id": "401857058",
@@ -1319,7 +1341,8 @@
       "id": "401857053",
       "date": "2026-07-09",
       "label": "Las Vegas Aces @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260709/20260709_LVAPDX_book.pdf"
     },
     {
       "id": "401857052",
@@ -1402,7 +1425,8 @@
       "id": "401857040",
       "date": "2026-07-04",
       "label": "Portland Fire @ Seattle Storm",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260704/20260704_PDXSEA_book.pdf"
     },
     {
       "id": "401857039",
@@ -1457,7 +1481,8 @@
       "id": "401857031",
       "date": "2026-06-28",
       "label": "Portland Fire @ Washington Mystics",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260628/20260628_PDXWAS_book.pdf"
     },
     {
       "id": "401857033",
@@ -1512,7 +1537,8 @@
       "id": "401857025",
       "date": "2026-06-26",
       "label": "Portland Fire @ Chicago Sky",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260626/20260626_PDXCHI_book.pdf"
     },
     {
       "id": "401857026",
@@ -1546,7 +1572,8 @@
       "id": "401857019",
       "date": "2026-06-24",
       "label": "Portland Fire @ Chicago Sky",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260624/20260624_PDXCHI_book.pdf"
     },
     {
       "id": "401857017",
@@ -1685,7 +1712,8 @@
       "id": "401857001",
       "date": "2026-06-17",
       "label": "Seattle Storm @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260617/20260617_SEAPDX_book.pdf"
     },
     {
       "id": "401856997",
@@ -1726,7 +1754,8 @@
       "id": "401856993",
       "date": "2026-06-15",
       "label": "Portland Fire @ Minnesota Lynx",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260615/20260615_PDXMIN_book.pdf"
     },
     {
       "id": "401856994",
@@ -1781,7 +1810,8 @@
       "id": "401856988",
       "date": "2026-06-13",
       "label": "Dallas Wings @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260613/20260613_DALPDX_book.pdf"
     },
     {
       "id": "401856984",
@@ -1815,7 +1845,8 @@
       "id": "401856983",
       "date": "2026-06-11",
       "label": "Las Vegas Aces @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260611/20260611_LVAPDX_book.pdf"
     },
     {
       "id": "401856980",
@@ -1884,7 +1915,8 @@
       "id": "401856971",
       "date": "2026-06-07",
       "label": "Portland Fire @ Los Angeles Sparks",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260607/20260607_PDXLAS_book.pdf"
     },
     {
       "id": "401856970",
@@ -1925,7 +1957,8 @@
       "id": "401856965",
       "date": "2026-06-05",
       "label": "Phoenix Mercury @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260605/20260605_PHXPDX_book.pdf"
     },
     {
       "id": "401856964",
@@ -1973,7 +2006,8 @@
       "id": "401856957",
       "date": "2026-06-02",
       "label": "Portland Fire @ Golden State Valkyries",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260602/20260602_PDXGSV_book.pdf"
     },
     {
       "id": "401856958",
@@ -2035,7 +2069,8 @@
       "id": "401856951",
       "date": "2026-05-30",
       "label": "Indiana Fever @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260530/20260530_INDPDX_book.pdf"
     },
     {
       "id": "401856945",
@@ -2062,7 +2097,8 @@
       "id": "401856948",
       "date": "2026-05-29",
       "label": "Atlanta Dream @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260529/20260529_ATLPDX_book.pdf"
     },
     {
       "id": "401856943",
@@ -2103,7 +2139,8 @@
       "id": "401856941",
       "date": "2026-05-27",
       "label": "Connecticut Sun @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260527/20260527_CONPDX_book.pdf"
     },
     {
       "id": "401856940",
@@ -2116,7 +2153,8 @@
       "id": "401856936",
       "date": "2026-05-25",
       "label": "Portland Fire @ New York Liberty",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260525/20260525_PDXNYL_book.pdf"
     },
     {
       "id": "401856937",
@@ -2150,7 +2188,8 @@
       "id": "401856931",
       "date": "2026-05-23",
       "label": "Portland Fire @ Toronto Tempo",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260523/20260523_PDXTOR_book.pdf"
     },
     {
       "id": "401856930",
@@ -2212,7 +2251,8 @@
       "id": "401856921",
       "date": "2026-05-20",
       "label": "Portland Fire @ Indiana Fever",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260520/20260520_PDXIND_book.pdf"
     },
     {
       "id": "401856922",
@@ -2246,7 +2286,8 @@
       "id": "401856919",
       "date": "2026-05-18",
       "label": "Connecticut Sun @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260518/20260518_CONPDX_book.pdf"
     },
     {
       "id": "401856917",
@@ -2308,7 +2349,8 @@
       "id": "401856909",
       "date": "2026-05-14",
       "label": "New York Liberty @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260514/20260514_NYLPDX_book.pdf"
     },
     {
       "id": "401856908",
@@ -2349,7 +2391,8 @@
       "id": "401856903",
       "date": "2026-05-12",
       "label": "New York Liberty @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260512/20260512_NYLPDX_book.pdf"
     },
     {
       "id": "401856902",
@@ -2411,7 +2454,8 @@
       "id": "401856895",
       "date": "2026-05-09",
       "label": "Chicago Sky @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260509/20260509_CHIPDX_book.pdf"
     },
     {
       "id": "401856899",
@@ -2459,7 +2503,8 @@
       "id": "401866521",
       "date": "2026-05-03",
       "label": "Los Angeles Sparks @ Portland Fire",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260503/20260503_LASPDX_book.pdf"
     },
     {
       "id": "401866520",
@@ -2486,7 +2531,8 @@
       "id": "401866516",
       "date": "2026-04-29",
       "label": "Portland Fire @ Seattle Storm",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260429/20260429_PDXSEA_book.pdf"
     },
     {
       "id": "401867792",
