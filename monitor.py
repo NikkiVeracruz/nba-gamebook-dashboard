@@ -130,6 +130,31 @@ def main() -> None:
             failures.append("partial schedule: " + ", ".join(g["date"] for g in missing))
     except (OSError, ValueError, KeyError, TypeError):
         pass
+    # Preserve links verified in a previous successful run if the official host
+    # temporarily fails. Only restore the exact expected official URL for the
+    # same game ID and date; never accept arbitrary URLs from old data.
+    try:
+        previous_data = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        prior_by_id = {str(g.get("id")): g for g in previous_data.get("games", [])
+                       if isinstance(g, dict) and g.get("id")}
+        for game in games:
+            old = prior_by_id.get(str(game.get("id")))
+            if not old or old.get("date") != game.get("date"):
+                continue
+            if not game.get("pdf_url") and old.get("pdf_url"):
+                # Only trust a prior URL matching the official NBA path,
+                # same date and the exact existing game's team pairing.
+                from urllib.parse import urlparse
+                prior_url = old["pdf_url"]
+                expected_date = game["date"].replace("-", "")
+                if (isinstance(prior_url, str)
+                        and prior_url.startswith(PDF_BASE + "/" + expected_date + "/")
+                        and prior_url.endswith("_book.pdf")
+                        and old.get("label") == game.get("label")):
+                    game["pdf_url"] = prior_url
+                    LOG.warning("Retained previously verified NBA PDF for %s", game["id"])
+    except (OSError, ValueError, TypeError, KeyError, AttributeError) as exc:
+        LOG.warning("Could not restore previously verified report links: %s", exc)
     games.sort(key=lambda g: (g["date"], g["label"]))
     payload = {
         "window_label": f"{days[0]:%b %d, %Y} – {days[1]:%b %d, %Y} (ET)",
