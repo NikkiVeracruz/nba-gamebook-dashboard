@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T07:02:03.732406+00:00",
+  "updated_at": "2026-11-23T07:02:15.405715+00:00",
   "games": [
     {
       "id": "401918311",
@@ -2554,7 +2554,8 @@
       "id": "401867792",
       "date": "2026-04-29",
       "label": "JAPAN @ Phoenix Mercury",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260429/20260429_JNTPHX_book.pdf"
     },
     {
       "id": "401866515",
@@ -2582,7 +2583,8 @@
       "id": "401869973",
       "date": "2026-04-26",
       "label": "JAPAN @ Las Vegas Aces",
-      "status": "Final"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20260426/20260426_JNTLVA_book.pdf"
     },
     {
       "id": "401866514",

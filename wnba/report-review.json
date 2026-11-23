@@ -1,20 +1,7 @@
 {
   "league": "WNBA",
   "scope": "2026",
-  "verified_recovered_in_scan": 46,
-  "unresolved_count": 2,
-  "unresolved": [
-    {
-      "id": "401867792",
-      "date": "2026-04-29",
-      "label": "JAPAN @ Phoenix Mercury",
-      "classification": "exhibition_needs_review"
-    },
-    {
-      "id": "401869973",
-      "date": "2026-04-26",
-      "label": "JAPAN @ Las Vegas Aces",
-      "classification": "exhibition_needs_review"
-    }
-  ]
+  "verified_recovered_in_scan": 2,
+  "unresolved_count": 0,
+  "unresolved": []
 }
