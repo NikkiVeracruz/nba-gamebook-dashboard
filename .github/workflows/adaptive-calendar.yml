@@ -57,34 +57,36 @@ jobs:
             if [ "$code" -ne 3 ]; then exit "$code"; fi
             wanted="disabled"
           fi
-          workflow="update.yml"
-          state=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow" --jq '.state')
-          if [ "$wanted" = "active" ] && [ "$state" != "active" ]; then
-            gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/enable"
-            echo "NBA: active game day or recent missing report; enabled five-minute checks"
-          elif [ "$wanted" = "disabled" ] && [ "$state" = "active" ]; then
-            gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/disable"
-            echo "NBA: idle; five-minute checks disabled"
-          else
-            echo "NBA: already $state"
-          fi
+          for workflow in update.yml backfill.yml; do
+            state=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow" --jq '.state')
+            if [ "$wanted" = "active" ] && [ "$state" != "active" ]; then
+              gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/enable"
+              echo "NBA: enabled $workflow for game-day monitoring and completeness"
+            elif [ "$wanted" = "disabled" ] && [ "$state" = "active" ]; then
+              gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/disable"
+              echo "NBA: disabled idle $workflow"
+            else
+              echo "NBA: $workflow already $state"
+            fi
+          done
 
           if python adaptive_monitor.py guard WNBA; then wanted="active"; else
             code=$?
             if [ "$code" -ne 3 ]; then exit "$code"; fi
             wanted="disabled"
           fi
-          workflow="wnba-update.yml"
-          state=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow" --jq '.state')
-          if [ "$wanted" = "active" ] && [ "$state" != "active" ]; then
-            gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/enable"
-            echo "WNBA: active game day or recent missing report; enabled five-minute checks"
-          elif [ "$wanted" = "disabled" ] && [ "$state" = "active" ]; then
-            gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/disable"
-            echo "WNBA: idle; five-minute checks disabled"
-          else
-            echo "WNBA: already $state"
-          fi
+          for workflow in wnba-update.yml wnba-backfill.yml; do
+            state=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow" --jq '.state')
+            if [ "$wanted" = "active" ] && [ "$state" != "active" ]; then
+              gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/enable"
+              echo "WNBA: enabled $workflow for game-day monitoring and completeness"
+            elif [ "$wanted" = "disabled" ] && [ "$state" = "active" ]; then
+              gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/disable"
+              echo "WNBA: disabled idle $workflow"
+            else
+              echo "WNBA: $workflow already $state"
+            fi
+          done
       - name: Bootstrap live checks after coordinator release
         if: github.event_name == 'push'
         env:
