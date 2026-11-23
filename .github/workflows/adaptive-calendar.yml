@@ -58,7 +58,7 @@ jobs:
             if [ "$code" -ne 3 ]; then exit "$code"; fi
             wanted="disabled"
           fi
-          for workflow in update.yml backfill.yml; do
+          for workflow in update.yml backfill.yml adaptive-watchdog-nba.yml; do
             state=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow" --jq '.state')
             if [ "$wanted" = "active" ] && [ "$state" != "active" ]; then
               gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/enable"
@@ -76,7 +76,7 @@ jobs:
             if [ "$code" -ne 3 ]; then exit "$code"; fi
             wanted="disabled"
           fi
-          for workflow in wnba-update.yml wnba-backfill.yml; do
+          for workflow in wnba-update.yml wnba-backfill.yml adaptive-watchdog-wnba.yml; do
             state=$(gh api "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow" --jq '.state')
             if [ "$wanted" = "active" ] && [ "$state" != "active" ]; then
               gh api -X PUT "repos/$GITHUB_REPOSITORY/actions/workflows/$workflow/enable"
