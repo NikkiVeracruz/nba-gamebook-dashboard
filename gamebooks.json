@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 21, 2026 – Nov 22, 2026 (ET)",
-  "updated_at": "2026-11-23T03:45:04.265107+00:00",
+  "updated_at": "2026-11-23T04:57:43.278528+00:00",
   "games": [
     {
       "id": "401910028",
@@ -48,7 +48,8 @@
       "id": "401910035",
       "date": "2026-11-22",
       "label": "Boston Celtics @ Golden State Warriors",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261122/20261122_BOSGSW_book.pdf"
     },
     {
       "id": "401910033",
