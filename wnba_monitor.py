@@ -132,6 +132,32 @@ def main() -> None:
                     games.append(g)
         except (OSError, ValueError):
             pass
+    # A partial but successful response must not silently remove a known game.
+    try:
+        previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        allowed = {d.isoformat() for d in days}
+        known = {str(g["id"]): g for g in previous.get("games", [])
+                 if isinstance(g, dict) and g.get("id") and g.get("date") in allowed}
+        seen = {str(g.get("id")) for g in games}
+        missing = [game for gid, game in known.items() if gid not in seen]
+        if missing:
+            LOG.warning("WNBA source omitted %d previously known games; retaining them", len(missing))
+            games.extend(missing)
+            failures.append("partial schedule")
+        # Do not lose a previously validated official gamebook during a transient PDF outage.
+        for game in games:
+            old = known.get(str(game.get("id")))
+            if not old or game.get("pdf_url") or not old.get("pdf_url"):
+                continue
+            old_url = old["pdf_url"]
+            day = game["date"].replace("-", "")
+            if (isinstance(old_url, str)
+                    and old_url.startswith(PDF_BASE + "/" + day + "/")
+                    and old_url.endswith("_book.pdf")
+                    and old.get("label") == game.get("label")):
+                game["pdf_url"] = old_url
+    except (OSError, ValueError, TypeError, KeyError):
+        pass
     games.sort(key=lambda g: (g["date"], g["label"]))
     payload = {
         "window_label": f"{days[0]:%b %d, %Y} – {days[-1]:%b %d, %Y} (ET; 3 AM rollover)",
