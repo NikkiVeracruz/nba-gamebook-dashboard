@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T00:21:20.801569+00:00",
+  "updated_at": "2026-11-23T00:35:52.686043+00:00",
   "games": [
     {
       "id": "401910044",
@@ -96,7 +96,7 @@
       "id": "401910033",
       "date": "2026-11-22",
       "label": "Dallas Mavericks @ Utah Jazz",
-      "status": "In Progress"
+      "status": "End of Period"
     },
     {
       "id": "401910035",
