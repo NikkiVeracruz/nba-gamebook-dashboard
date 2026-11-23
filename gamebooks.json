@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 21, 2026 – Nov 22, 2026 (ET)",
-  "updated_at": "2026-11-23T01:43:32.641496+00:00",
+  "updated_at": "2026-11-23T02:43:50.859320+00:00",
   "games": [
     {
       "id": "401910028",
@@ -48,19 +48,21 @@
       "id": "401910035",
       "date": "2026-11-22",
       "label": "Boston Celtics @ Golden State Warriors",
-      "status": "In Progress"
+      "status": "Halftime"
     },
     {
       "id": "401910033",
       "date": "2026-11-22",
       "label": "Dallas Mavericks @ Utah Jazz",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261122/20261122_DALUTA_book.pdf"
     },
     {
       "id": "401910032",
       "date": "2026-11-22",
       "label": "Denver Nuggets @ Chicago Bulls",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261122/20261122_DENCHI_book.pdf"
     },
     {
       "id": "401910029",
@@ -86,7 +88,8 @@
       "id": "401910031",
       "date": "2026-11-22",
       "label": "Orlando Magic @ Washington Wizards",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261122/20261122_ORLWAS_book.pdf"
     }
   ]
 }
