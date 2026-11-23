@@ -1,7 +1,7 @@
 {
   "league": "WNBA",
-  "scope": "2026",
-  "verified_recovered_in_scan": 2,
+  "scope": "forward_only",
+  "verified_recovered_in_scan": 0,
   "unresolved_count": 0,
   "unresolved": []
 }
