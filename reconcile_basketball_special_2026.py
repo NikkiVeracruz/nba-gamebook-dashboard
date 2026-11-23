@@ -142,6 +142,13 @@ def reconcile(league, session=None, path=None, summary_path=None):
     previous=manager.load_payload(target,f"{league} historical archive")
     saved=manager.validate_games(previous,"Original basketball archive")
     events=fetch_special(league,session)
+    for event in events:
+        prior=saved.get(str(event["id"]),{})
+        if prior.get("pdf_url") and not event.get("pdf_url"):
+            # An earlier verified link is not erased by an intermittent
+            # publisher outage or by repeated All-Star matchup ambiguity.
+            event["pdf_url"]=prior["pdf_url"]
+            event["report_requirement"]="verified"
     merged=manager.build_archive({"games":events},previous)
     if merged["games"]!=previous["games"]:
         manager.atomic_write_json(target,merged)
