@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Publish WNBA gamebook PDF availability for today and yesterday (America/New_York).
+"""Publish WNBA gamebook PDFs for yesterday, today, tomorrow (3 AM ET rollover).
 
 ESPN's public scoreboard supplies the schedule. Every displayed PDF is checked
 against candidate WNBA PDF URLs using exact dates and team abbreviations.
@@ -14,6 +14,8 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 import requests
+import wnba_archive as archive_module
+from three_day_window import three_days, archive_outgoing_games, scheduled_games_in_window
 
 ET = ZoneInfo("America/New_York")
 OUTPUT = Path("wnba/gamebooks.json")
@@ -94,18 +96,19 @@ def write_if_changed(path, payload):
 
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
+    # Archive disappearing dates *before* publishing the new three-day feed.
+    days = three_days()
+    archive_outgoing_games(OUTPUT, archive_module.ARCHIVE, days, archive_module)
     # Seasonal guard: keep the website live but avoid report scraping in the offseason.
     # Broad calendar boundaries allow preseason and late postseason games; the
     # schedule source itself determines which games actually appear.
-    if datetime.now(ET).month not in [5,6,7,8,9,10] and not __import__("adaptive_monitor").should_poll("WNBA"):
+    if datetime.now(ET).month not in [5,6,7,8,9,10] and not scheduled_games_in_window("wnba/calendar.json", days) and not __import__("adaptive_monitor").should_poll("WNBA"):
         now = datetime.now(timezone.utc).isoformat()
-        write_if_changed(OUTPUT, {"window_label": "Offseason", "updated_at": now, "offseason": True, "games": []})
+        write_if_changed(OUTPUT, {"window_label": f"{days[0]:%b %d, %Y} – {days[-1]:%b %d, %Y} (ET; 3 AM rollover)", "window_dates": [d.isoformat() for d in days], "updated_at": now, "offseason": True, "games": []})
         LOG.info("Offseason: skipping gamebook checks")
         return
 
     # Reporting day changes at 3:00 AM Eastern, including DST.
-    today = (datetime.now(ET) - timedelta(hours=3)).date()
-    days = [today - timedelta(days=1), today]
     session = requests.Session()
     session.headers.update(HEADERS)
     games = []
@@ -120,7 +123,7 @@ def main() -> None:
             failures.append(str(day))
     if failures:
         # Preserve existing data if the source is temporarily unavailable,
-        # but never preserve games outside the current two-day window.
+        # but never preserve games outside the current three-day window.
         try:
             previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
             existing = {g["id"]: g for g in games}
@@ -129,9 +132,36 @@ def main() -> None:
                     games.append(g)
         except (OSError, ValueError):
             pass
+    # A partial but successful response must not silently remove a known game.
+    try:
+        previous = json.loads(OUTPUT.read_text(encoding="utf-8"))
+        allowed = {d.isoformat() for d in days}
+        known = {str(g["id"]): g for g in previous.get("games", [])
+                 if isinstance(g, dict) and g.get("id") and g.get("date") in allowed}
+        seen = {str(g.get("id")) for g in games}
+        missing = [game for gid, game in known.items() if gid not in seen]
+        if missing:
+            LOG.warning("WNBA source omitted %d previously known games; retaining them", len(missing))
+            games.extend(missing)
+            failures.append("partial schedule")
+        # Do not lose a previously validated official gamebook during a transient PDF outage.
+        for game in games:
+            old = known.get(str(game.get("id")))
+            if not old or game.get("pdf_url") or not old.get("pdf_url"):
+                continue
+            old_url = old["pdf_url"]
+            day = game["date"].replace("-", "")
+            if (isinstance(old_url, str)
+                    and old_url.startswith(PDF_BASE + "/" + day + "/")
+                    and old_url.endswith("_book.pdf")
+                    and old.get("label") == game.get("label")):
+                game["pdf_url"] = old_url
+    except (OSError, ValueError, TypeError, KeyError):
+        pass
     games.sort(key=lambda g: (g["date"], g["label"]))
     payload = {
-        "window_label": f"{days[0]:%b %d, %Y} – {days[1]:%b %d, %Y} (ET)",
+        "window_label": f"{days[0]:%b %d, %Y} – {days[-1]:%b %d, %Y} (ET; 3 AM rollover)",
+        "window_dates": [d.isoformat() for d in days],
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "games": games,
     }
@@ -140,7 +170,7 @@ def main() -> None:
     write_if_changed(OUTPUT, payload)
     LOG.info("Published %d games (%d verified PDFs)", len(games), sum("pdf_url" in g for g in games))
     if len(failures) == len(days):
-        raise RuntimeError("Both WNBA scoreboard requests failed; check source availability")
+        raise RuntimeError("All three WNBA scoreboard requests failed; check source availability")
 
 if __name__ == "__main__":
     main()
