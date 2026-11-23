@@ -20,6 +20,8 @@ jobs:
       - run: pip install -r requirements.txt
       - name: Retrieve WNBA historical records
         run: python wnba_backfill.py
+      - name: Block loss of WNBA historical games or report links
+        run: python tests/archive_integrity_gate.py wnba/archive.json
       - name: Publish WNBA archive and progress
         run: |
           if [[ -n "$(git status --porcelain wnba/)" ]]; then
