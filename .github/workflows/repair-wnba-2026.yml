@@ -6,6 +6,8 @@ on:
     branches: [main]
     paths:
       - .github/workflows/repair-wnba-2026.yml
+      - wnba_monitor.py
+      - repair_wnba_2026.py
 permissions:
   contents: write
 concurrency:
