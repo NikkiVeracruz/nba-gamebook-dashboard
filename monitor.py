@@ -81,6 +81,21 @@ def games_on(session: requests.Session, day) -> list[dict]:
         results.append(game)
     return results
 
+def write_if_changed(path, payload):
+    """Publish only genuine feed changes; save successful checks separately."""
+    try:
+        prior = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, ValueError):
+        prior = {}
+    visible = lambda x: {k: v for k, v in x.items() if k != "updated_at"}
+    if visible(prior) == visible(payload):
+        LOG.info("Feed unchanged; skipped timestamp-only commit")
+        return False
+    path.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n",
+                    encoding="utf-8")
+    return True
+
+
 def main() -> None:
     logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
     # Seasonal guard: keep the website live but avoid report scraping in the offseason.
@@ -88,7 +103,7 @@ def main() -> None:
     # schedule source itself determines which games actually appear.
     if datetime.now(ET).month not in [10,11,12,1,2,3,4,5,6]:
         now = datetime.now(timezone.utc).isoformat()
-        OUTPUT.write_text(json.dumps({"window_label": "Offseason", "updated_at": now, "offseason": True, "games": []}, indent=2) + "\n")
+        write_if_changed(OUTPUT, {"window_label": "Offseason", "updated_at": now, "offseason": True, "games": []})
         LOG.info("Offseason: skipping gamebook checks")
         return
 
@@ -163,7 +178,7 @@ def main() -> None:
     }
     if failures:
         payload["warning"] = "Schedule data is temporarily unavailable for " + ", ".join(failures) + ". Some results may be delayed."
-    OUTPUT.write_text(json.dumps(payload, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
+    write_if_changed(OUTPUT, payload)
     LOG.info("Published %d games (%d verified PDFs)", len(games), sum("pdf_url" in g for g in games))
     if len(failures) == len(days):
         raise RuntimeError("Both NBA scoreboard requests failed; check source availability")
