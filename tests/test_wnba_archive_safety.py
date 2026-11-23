@@ -122,7 +122,7 @@ class ArchiveSafetyTests(unittest.TestCase):
         after_ids = set(archive.validate_games(after, "Merged preview"))
         self.assertTrue(before_ids.issubset(after_ids))
         self.assertGreaterEqual(len(after["games"]), len(before["games"]))
-        self.assertEqual(historical, (root / "archive.json").read_bytes())
+        self.assertEqual(historical, (root / "wnba/archive.json").read_bytes())
 
 
 if __name__ == "__main__":
