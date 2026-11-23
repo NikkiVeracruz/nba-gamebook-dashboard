@@ -9,6 +9,7 @@ permissions:
   contents: write
 jobs:
   nba:
+    if: ${{ vars.ENABLE_HISTORICAL_BACKFILL == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     concurrency:
@@ -43,6 +44,7 @@ jobs:
             exit 1
           fi
   wnba:
+    if: ${{ vars.ENABLE_HISTORICAL_BACKFILL == 'true' }}
     runs-on: ubuntu-latest
     timeout-minutes: 15
     concurrency:
