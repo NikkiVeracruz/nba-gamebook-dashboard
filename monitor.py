@@ -101,7 +101,7 @@ def main() -> None:
     # Seasonal guard: keep the website live but avoid report scraping in the offseason.
     # Broad calendar boundaries allow preseason and late postseason games; the
     # schedule source itself determines which games actually appear.
-    if datetime.now(ET).month not in [10,11,12,1,2,3,4,5,6]:
+    if datetime.now(ET).month not in [10,11,12,1,2,3,4,5,6] and not __import__("adaptive_monitor").should_poll("NBA"):
         now = datetime.now(timezone.utc).isoformat()
         write_if_changed(OUTPUT, {"window_label": "Offseason", "updated_at": now, "offseason": True, "games": []})
         LOG.info("Offseason: skipping gamebook checks")
