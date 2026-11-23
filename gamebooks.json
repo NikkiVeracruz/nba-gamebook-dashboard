@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 21, 2026 – Nov 22, 2026 (ET)",
-  "updated_at": "2026-11-23T00:41:36.142963+00:00",
+  "updated_at": "2026-11-23T01:43:32.641496+00:00",
   "games": [
     {
       "id": "401910028",
@@ -48,7 +48,7 @@
       "id": "401910035",
       "date": "2026-11-22",
       "label": "Boston Celtics @ Golden State Warriors",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910033",
@@ -73,13 +73,14 @@
       "id": "401910034",
       "date": "2026-11-22",
       "label": "Indiana Pacers @ New York Knicks",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910030",
       "date": "2026-11-22",
       "label": "Oklahoma City Thunder @ Miami Heat",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261122/20261122_OKCMIA_book.pdf"
     },
     {
       "id": "401910031",
