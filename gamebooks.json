@@ -1,6 +1,6 @@
 {
   "window_label": "Nov 21, 2026 – Nov 22, 2026 (ET)",
-  "updated_at": "2026-11-23T02:43:50.859320+00:00",
+  "updated_at": "2026-11-23T02:51:45.469347+00:00",
   "games": [
     {
       "id": "401910028",
@@ -48,7 +48,7 @@
       "id": "401910035",
       "date": "2026-11-22",
       "label": "Boston Celtics @ Golden State Warriors",
-      "status": "Halftime"
+      "status": "In Progress"
     },
     {
       "id": "401910033",

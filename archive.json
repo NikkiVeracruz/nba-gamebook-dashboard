@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T02:43:50.917198+00:00",
+  "updated_at": "2026-11-23T02:51:45.523485+00:00",
   "games": [
     {
       "id": "401910044",
@@ -106,7 +106,7 @@
       "id": "401910035",
       "date": "2026-11-22",
       "label": "Boston Celtics @ Golden State Warriors",
-      "status": "Halftime"
+      "status": "In Progress"
     },
     {
       "id": "401910024",
