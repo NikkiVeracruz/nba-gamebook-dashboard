@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-23T06:46:25.720266+00:00",
+  "updated_at": "2026-11-23T07:02:03.732406+00:00",
   "games": [
     {
       "id": "401918311",
@@ -1057,6 +1057,14 @@
       "label": "Connecticut Sun @ Washington Mystics",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20260728/20260728_CONWAS_book.pdf"
+    },
+    {
+      "id": "401857320",
+      "date": "2026-07-25",
+      "label": "TEAM SPOON @ TEAM COOP",
+      "status": "Final",
+      "competition": "wnba_all_star",
+      "report_requirement": "special_event_needs_review"
     },
     {
       "id": "401857086",
@@ -2514,6 +2522,14 @@
       "pdf_url": "https://statsdmz.nba.com/pdfs/20260503/20260503_LVADAL_book.pdf"
     },
     {
+      "id": "401867794",
+      "date": "2026-05-02",
+      "label": "NIGERIA @ Indiana Fever",
+      "status": "Final",
+      "competition": "wnba_exhibition",
+      "report_requirement": "special_event_needs_review"
+    },
+    {
       "id": "401867793",
       "date": "2026-05-01",
       "label": "Toronto Tempo @ Minnesota Lynx",
@@ -2555,6 +2571,14 @@
       "pdf_url": "https://statsdmz.nba.com/pdfs/20260429/20260429_ATLCHI_book.pdf"
     },
     {
+      "id": "401867791",
+      "date": "2026-04-27",
+      "label": "NIGERIA @ Minnesota Lynx",
+      "status": "Final",
+      "competition": "wnba_exhibition",
+      "report_requirement": "special_event_needs_review"
+    },
+    {
       "id": "401869973",
       "date": "2026-04-26",
       "label": "JAPAN @ Las Vegas Aces",
@@ -2566,6 +2590,14 @@
       "label": "Seattle Storm @ Golden State Valkyries",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20260425/20260425_SEAGSV_book.pdf"
+    },
+    {
+      "id": "401867790",
+      "date": "2026-04-25",
+      "label": "NIGERIA @ Los Angeles Sparks",
+      "status": "Final",
+      "competition": "wnba_exhibition",
+      "report_requirement": "special_event_needs_review"
     },
     {
       "id": "401866513",

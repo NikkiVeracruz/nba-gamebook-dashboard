@@ -1,0 +1,40 @@
+{
+  "league": "WNBA",
+  "year": 2026,
+  "matched_special_events": 4,
+  "new_records_added": 4,
+  "events": [
+    {
+      "id": "401857320",
+      "date": "2026-07-25",
+      "label": "TEAM SPOON @ TEAM COOP",
+      "competition": "wnba_all_star",
+      "report_requirement": "special_event_needs_review",
+      "pdf_url": null
+    },
+    {
+      "id": "401867794",
+      "date": "2026-05-02",
+      "label": "NIGERIA @ Indiana Fever",
+      "competition": "wnba_exhibition",
+      "report_requirement": "special_event_needs_review",
+      "pdf_url": null
+    },
+    {
+      "id": "401867791",
+      "date": "2026-04-27",
+      "label": "NIGERIA @ Minnesota Lynx",
+      "competition": "wnba_exhibition",
+      "report_requirement": "special_event_needs_review",
+      "pdf_url": null
+    },
+    {
+      "id": "401867790",
+      "date": "2026-04-25",
+      "label": "NIGERIA @ Los Angeles Sparks",
+      "competition": "wnba_exhibition",
+      "report_requirement": "special_event_needs_review",
+      "pdf_url": null
+    }
+  ]
+}
