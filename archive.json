@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-24T03:17:46.343734+00:00",
+  "updated_at": "2026-11-24T04:25:38.299934+00:00",
   "games": [
     {
       "id": "401910037",
@@ -7,6 +7,13 @@
       "label": "Portland Trail Blazers @ Philadelphia 76ers",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_PORPHI_book.pdf"
+    },
+    {
+      "id": "401910042",
+      "date": "2026-11-23",
+      "label": "Phoenix Suns @ New Orleans Pelicans",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_PHXNOP_book.pdf"
     },
     {
       "id": "401910038",
@@ -28,6 +35,20 @@
       "label": "Memphis Grizzlies @ Charlotte Hornets",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_MEMCHA_book.pdf"
+    },
+    {
+      "id": "401910043",
+      "date": "2026-11-23",
+      "label": "LA Clippers @ Houston Rockets",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_LACHOU_book.pdf"
+    },
+    {
+      "id": "401910041",
+      "date": "2026-11-23",
+      "label": "Cleveland Cavaliers @ Chicago Bulls",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_CLECHI_book.pdf"
     },
     {
       "id": "401910040",

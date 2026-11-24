@@ -5,7 +5,7 @@
     "2026-11-23",
     "2026-11-24"
   ],
-  "updated_at": "2026-11-24T03:17:46.294725+00:00",
+  "updated_at": "2026-11-24T04:25:38.245026+00:00",
   "games": [
     {
       "id": "401910035",
@@ -67,13 +67,15 @@
       "id": "401910041",
       "date": "2026-11-23",
       "label": "Cleveland Cavaliers @ Chicago Bulls",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_CLECHI_book.pdf"
     },
     {
       "id": "401910043",
       "date": "2026-11-23",
       "label": "LA Clippers @ Houston Rockets",
-      "status": "End of Period"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_LACHOU_book.pdf"
     },
     {
       "id": "401910036",
@@ -100,7 +102,8 @@
       "id": "401910042",
       "date": "2026-11-23",
       "label": "Phoenix Suns @ New Orleans Pelicans",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_PHXNOP_book.pdf"
     },
     {
       "id": "401910037",
@@ -119,7 +122,7 @@
       "id": "401910044",
       "date": "2026-11-23",
       "label": "Utah Jazz @ Los Angeles Lakers",
-      "status": "In Progress"
+      "status": "Halftime"
     },
     {
       "id": "401909315",
