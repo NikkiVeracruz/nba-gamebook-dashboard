@@ -5,7 +5,7 @@
     "2026-11-23",
     "2026-11-24"
   ],
-  "updated_at": "2026-11-24T02:21:15.183077+00:00",
+  "updated_at": "2026-11-24T03:17:46.294725+00:00",
   "games": [
     {
       "id": "401910035",
@@ -60,37 +60,41 @@
       "id": "401910040",
       "date": "2026-11-23",
       "label": "Brooklyn Nets @ Minnesota Timberwolves",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_BKNMIN_book.pdf"
     },
     {
       "id": "401910041",
       "date": "2026-11-23",
       "label": "Cleveland Cavaliers @ Chicago Bulls",
-      "status": "Halftime"
+      "status": "In Progress"
     },
     {
       "id": "401910043",
       "date": "2026-11-23",
       "label": "LA Clippers @ Houston Rockets",
-      "status": "In Progress"
+      "status": "End of Period"
     },
     {
       "id": "401910036",
       "date": "2026-11-23",
       "label": "Memphis Grizzlies @ Charlotte Hornets",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_MEMCHA_book.pdf"
     },
     {
       "id": "401910039",
       "date": "2026-11-23",
       "label": "Milwaukee Bucks @ Toronto Raptors",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_MILTOR_book.pdf"
     },
     {
       "id": "401910038",
       "date": "2026-11-23",
       "label": "Oklahoma City Thunder @ Indiana Pacers",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_OKCIND_book.pdf"
     },
     {
       "id": "401910042",
@@ -102,19 +106,20 @@
       "id": "401910037",
       "date": "2026-11-23",
       "label": "Portland Trail Blazers @ Philadelphia 76ers",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_PORPHI_book.pdf"
     },
     {
       "id": "401910045",
       "date": "2026-11-23",
       "label": "San Antonio Spurs @ Sacramento Kings",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910044",
       "date": "2026-11-23",
       "label": "Utah Jazz @ Los Angeles Lakers",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909315",

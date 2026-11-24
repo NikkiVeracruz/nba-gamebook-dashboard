@@ -1,6 +1,41 @@
 {
-  "updated_at": "2026-11-23T08:14:33.235113+00:00",
+  "updated_at": "2026-11-24T03:17:46.343734+00:00",
   "games": [
+    {
+      "id": "401910037",
+      "date": "2026-11-23",
+      "label": "Portland Trail Blazers @ Philadelphia 76ers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_PORPHI_book.pdf"
+    },
+    {
+      "id": "401910038",
+      "date": "2026-11-23",
+      "label": "Oklahoma City Thunder @ Indiana Pacers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_OKCIND_book.pdf"
+    },
+    {
+      "id": "401910039",
+      "date": "2026-11-23",
+      "label": "Milwaukee Bucks @ Toronto Raptors",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_MILTOR_book.pdf"
+    },
+    {
+      "id": "401910036",
+      "date": "2026-11-23",
+      "label": "Memphis Grizzlies @ Charlotte Hornets",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_MEMCHA_book.pdf"
+    },
+    {
+      "id": "401910040",
+      "date": "2026-11-23",
+      "label": "Brooklyn Nets @ Minnesota Timberwolves",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_BKNMIN_book.pdf"
+    },
     {
       "id": "401910031",
       "date": "2026-11-22",
