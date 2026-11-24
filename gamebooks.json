@@ -5,7 +5,7 @@
     "2026-11-23",
     "2026-11-24"
   ],
-  "updated_at": "2026-11-23T08:14:33.168974+00:00",
+  "updated_at": "2026-11-24T01:04:18.840913+00:00",
   "games": [
     {
       "id": "401910035",
@@ -60,7 +60,7 @@
       "id": "401910040",
       "date": "2026-11-23",
       "label": "Brooklyn Nets @ Minnesota Timberwolves",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910041",
@@ -78,19 +78,19 @@
       "id": "401910036",
       "date": "2026-11-23",
       "label": "Memphis Grizzlies @ Charlotte Hornets",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910039",
       "date": "2026-11-23",
       "label": "Milwaukee Bucks @ Toronto Raptors",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910038",
       "date": "2026-11-23",
       "label": "Oklahoma City Thunder @ Indiana Pacers",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910042",
@@ -102,7 +102,7 @@
       "id": "401910037",
       "date": "2026-11-23",
       "label": "Portland Trail Blazers @ Philadelphia 76ers",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401910045",
