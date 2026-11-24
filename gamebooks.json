@@ -5,7 +5,7 @@
     "2026-11-23",
     "2026-11-24"
   ],
-  "updated_at": "2026-11-24T05:31:13.945597+00:00",
+  "updated_at": "2026-11-24T06:29:08.911552+00:00",
   "games": [
     {
       "id": "401910035",
@@ -123,7 +123,8 @@
       "id": "401910044",
       "date": "2026-11-23",
       "label": "Utah Jazz @ Los Angeles Lakers",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_UTALAL_book.pdf"
     },
     {
       "id": "401909315",
