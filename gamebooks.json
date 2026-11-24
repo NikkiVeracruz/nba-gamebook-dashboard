@@ -5,7 +5,7 @@
     "2026-11-23",
     "2026-11-24"
   ],
-  "updated_at": "2026-11-24T04:25:38.245026+00:00",
+  "updated_at": "2026-11-24T05:31:13.945597+00:00",
   "games": [
     {
       "id": "401910035",
@@ -116,13 +116,14 @@
       "id": "401910045",
       "date": "2026-11-23",
       "label": "San Antonio Spurs @ Sacramento Kings",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_SASSAC_book.pdf"
     },
     {
       "id": "401910044",
       "date": "2026-11-23",
       "label": "Utah Jazz @ Los Angeles Lakers",
-      "status": "Halftime"
+      "status": "In Progress"
     },
     {
       "id": "401909315",
