@@ -1,82 +1,12 @@
 {
-  "window_label": "Nov 23, 2026 – Nov 25, 2026 (ET; 3 AM rollover)",
+  "window_label": "Nov 24, 2026 – Nov 26, 2026 (ET; 3 AM rollover)",
   "window_dates": [
-    "2026-11-23",
     "2026-11-24",
-    "2026-11-25"
+    "2026-11-25",
+    "2026-11-26"
   ],
-  "updated_at": "2026-11-25T05:49:39.656911+00:00",
+  "updated_at": "2026-11-25T08:19:24.299639+00:00",
   "games": [
-    {
-      "id": "401910040",
-      "date": "2026-11-23",
-      "label": "Brooklyn Nets @ Minnesota Timberwolves",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_BKNMIN_book.pdf"
-    },
-    {
-      "id": "401910041",
-      "date": "2026-11-23",
-      "label": "Cleveland Cavaliers @ Chicago Bulls",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_CLECHI_book.pdf"
-    },
-    {
-      "id": "401910043",
-      "date": "2026-11-23",
-      "label": "LA Clippers @ Houston Rockets",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_LACHOU_book.pdf"
-    },
-    {
-      "id": "401910036",
-      "date": "2026-11-23",
-      "label": "Memphis Grizzlies @ Charlotte Hornets",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_MEMCHA_book.pdf"
-    },
-    {
-      "id": "401910039",
-      "date": "2026-11-23",
-      "label": "Milwaukee Bucks @ Toronto Raptors",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_MILTOR_book.pdf"
-    },
-    {
-      "id": "401910038",
-      "date": "2026-11-23",
-      "label": "Oklahoma City Thunder @ Indiana Pacers",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_OKCIND_book.pdf"
-    },
-    {
-      "id": "401910042",
-      "date": "2026-11-23",
-      "label": "Phoenix Suns @ New Orleans Pelicans",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_PHXNOP_book.pdf"
-    },
-    {
-      "id": "401910037",
-      "date": "2026-11-23",
-      "label": "Portland Trail Blazers @ Philadelphia 76ers",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_PORPHI_book.pdf"
-    },
-    {
-      "id": "401910045",
-      "date": "2026-11-23",
-      "label": "San Antonio Spurs @ Sacramento Kings",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_SASSAC_book.pdf"
-    },
-    {
-      "id": "401910044",
-      "date": "2026-11-23",
-      "label": "Utah Jazz @ Los Angeles Lakers",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261123/20261123_UTALAL_book.pdf"
-    },
     {
       "id": "401909315",
       "date": "2026-11-24",
