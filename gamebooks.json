@@ -5,7 +5,7 @@
     "2026-11-24",
     "2026-11-25"
   ],
-  "updated_at": "2026-11-24T08:58:13.730844+00:00",
+  "updated_at": "2026-11-25T00:14:57.484450+00:00",
   "games": [
     {
       "id": "401910040",
@@ -93,7 +93,7 @@
       "id": "401909314",
       "date": "2026-11-24",
       "label": "Detroit Pistons @ Orlando Magic",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909322",
