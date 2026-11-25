@@ -5,7 +5,7 @@
     "2026-11-24",
     "2026-11-25"
   ],
-  "updated_at": "2026-11-25T02:43:25.485875+00:00",
+  "updated_at": "2026-11-25T03:43:49.779800+00:00",
   "games": [
     {
       "id": "401910040",
@@ -81,13 +81,14 @@
       "id": "401909315",
       "date": "2026-11-24",
       "label": "Boston Celtics @ Washington Wizards",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261124/20261124_BOSWAS_book.pdf"
     },
     {
       "id": "401909316",
       "date": "2026-11-24",
       "label": "Dallas Mavericks @ Denver Nuggets",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909314",
