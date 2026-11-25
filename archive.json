@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-25T03:43:49.841832+00:00",
+  "updated_at": "2026-11-25T05:49:39.711118+00:00",
   "games": [
     {
       "id": "401909314",
@@ -7,6 +7,13 @@
       "label": "Detroit Pistons @ Orlando Magic",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261124/20261124_DETORL_book.pdf"
+    },
+    {
+      "id": "401909316",
+      "date": "2026-11-24",
+      "label": "Dallas Mavericks @ Denver Nuggets",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261124/20261124_DALDEN_book.pdf"
     },
     {
       "id": "401909315",
