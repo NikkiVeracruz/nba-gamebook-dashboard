@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-26T02:53:01.706479+00:00",
+  "updated_at": "2026-11-26T03:49:59.821468+00:00",
   "games": [
+    {
+      "id": "401909320",
+      "date": "2026-11-25",
+      "label": "Minnesota Timberwolves @ Oklahoma City Thunder",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_MINOKC_book.pdf"
+    },
     {
       "id": "401909317",
       "date": "2026-11-25",
@@ -9,11 +16,32 @@
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_MIAPHI_book.pdf"
     },
     {
+      "id": "401909321",
+      "date": "2026-11-25",
+      "label": "LA Clippers @ Memphis Grizzlies",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_LACMEM_book.pdf"
+    },
+    {
+      "id": "401909319",
+      "date": "2026-11-25",
+      "label": "Cleveland Cavaliers @ New York Knicks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_CLENYK_book.pdf"
+    },
+    {
       "id": "401909318",
       "date": "2026-11-25",
       "label": "Chicago Bulls @ Charlotte Hornets",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_CHICHA_book.pdf"
+    },
+    {
+      "id": "401909322",
+      "date": "2026-11-25",
+      "label": "Brooklyn Nets @ Milwaukee Bucks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_BKNMIL_book.pdf"
     },
     {
       "id": "401909314",
