@@ -5,7 +5,7 @@
     "2026-11-25",
     "2026-11-26"
   ],
-  "updated_at": "2026-11-26T00:33:27.411904+00:00",
+  "updated_at": "2026-11-26T01:57:42.344700+00:00",
   "games": [
     {
       "id": "401909315",
@@ -32,25 +32,25 @@
       "id": "401909322",
       "date": "2026-11-25",
       "label": "Brooklyn Nets @ Milwaukee Bucks",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909318",
       "date": "2026-11-25",
       "label": "Chicago Bulls @ Charlotte Hornets",
-      "status": "End of Period"
+      "status": "In Progress"
     },
     {
       "id": "401909319",
       "date": "2026-11-25",
       "label": "Cleveland Cavaliers @ New York Knicks",
-      "status": "Scheduled"
+      "status": "Halftime"
     },
     {
       "id": "401909321",
       "date": "2026-11-25",
       "label": "LA Clippers @ Memphis Grizzlies",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909317",
@@ -63,13 +63,13 @@
       "id": "401909320",
       "date": "2026-11-25",
       "label": "Minnesota Timberwolves @ Oklahoma City Thunder",
-      "status": "Scheduled"
+      "status": "Halftime"
     },
     {
       "id": "401909323",
       "date": "2026-11-25",
       "label": "Phoenix Suns @ Houston Rockets",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909324",
