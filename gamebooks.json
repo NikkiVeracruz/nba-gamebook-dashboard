@@ -5,7 +5,7 @@
     "2026-11-25",
     "2026-11-26"
   ],
-  "updated_at": "2026-11-26T03:49:59.773899+00:00",
+  "updated_at": "2026-11-26T04:54:14.028683+00:00",
   "games": [
     {
       "id": "401909315",
@@ -74,7 +74,8 @@
       "id": "401909323",
       "date": "2026-11-25",
       "label": "Phoenix Suns @ Houston Rockets",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_PHXHOU_book.pdf"
     },
     {
       "id": "401909324",
