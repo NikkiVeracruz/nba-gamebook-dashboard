@@ -1,33 +1,12 @@
 {
-  "window_label": "Nov 24, 2026 – Nov 26, 2026 (ET; 3 AM rollover)",
+  "window_label": "Nov 25, 2026 – Nov 27, 2026 (ET; 3 AM rollover)",
   "window_dates": [
-    "2026-11-24",
     "2026-11-25",
-    "2026-11-26"
+    "2026-11-26",
+    "2026-11-27"
   ],
-  "updated_at": "2026-11-26T05:54:37.771297+00:00",
+  "updated_at": "2026-11-26T08:58:28.267012+00:00",
   "games": [
-    {
-      "id": "401909315",
-      "date": "2026-11-24",
-      "label": "Boston Celtics @ Washington Wizards",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261124/20261124_BOSWAS_book.pdf"
-    },
-    {
-      "id": "401909316",
-      "date": "2026-11-24",
-      "label": "Dallas Mavericks @ Denver Nuggets",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261124/20261124_DALDEN_book.pdf"
-    },
-    {
-      "id": "401909314",
-      "date": "2026-11-24",
-      "label": "Detroit Pistons @ Orlando Magic",
-      "status": "Final",
-      "pdf_url": "https://statsdmz.nba.com/pdfs/20261124/20261124_DETORL_book.pdf"
-    },
     {
       "id": "401909322",
       "date": "2026-11-25",
@@ -90,6 +69,72 @@
       "label": "San Antonio Spurs @ Portland Trail Blazers",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_SASPOR_book.pdf"
+    },
+    {
+      "id": "401909330",
+      "date": "2026-11-27",
+      "label": "Atlanta Hawks @ Boston Celtics",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909329",
+      "date": "2026-11-27",
+      "label": "Brooklyn Nets @ Toronto Raptors",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909332",
+      "date": "2026-11-27",
+      "label": "Dallas Mavericks @ Phoenix Suns",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909334",
+      "date": "2026-11-27",
+      "label": "Denver Nuggets @ Utah Jazz",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909336",
+      "date": "2026-11-27",
+      "label": "Golden State Warriors @ Portland Trail Blazers",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909333",
+      "date": "2026-11-27",
+      "label": "Los Angeles Lakers @ San Antonio Spurs",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909331",
+      "date": "2026-11-27",
+      "label": "Memphis Grizzlies @ Minnesota Timberwolves",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909326",
+      "date": "2026-11-27",
+      "label": "Miami Heat @ New York Knicks",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909327",
+      "date": "2026-11-27",
+      "label": "Milwaukee Bucks @ Detroit Pistons",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909335",
+      "date": "2026-11-27",
+      "label": "New Orleans Pelicans @ LA Clippers",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401909328",
+      "date": "2026-11-27",
+      "label": "Philadelphia 76ers @ Indiana Pacers",
+      "status": "Scheduled"
     }
   ]
 }
