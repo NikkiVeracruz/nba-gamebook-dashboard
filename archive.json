@@ -1,6 +1,13 @@
 {
-  "updated_at": "2026-11-25T05:49:39.711118+00:00",
+  "updated_at": "2026-11-26T00:33:27.472571+00:00",
   "games": [
+    {
+      "id": "401909317",
+      "date": "2026-11-25",
+      "label": "Miami Heat @ Philadelphia 76ers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_MIAPHI_book.pdf"
+    },
     {
       "id": "401909314",
       "date": "2026-11-24",
