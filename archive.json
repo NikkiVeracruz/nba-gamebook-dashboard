@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-26T00:33:27.472571+00:00",
+  "updated_at": "2026-11-26T02:53:01.706479+00:00",
   "games": [
     {
       "id": "401909317",
@@ -7,6 +7,13 @@
       "label": "Miami Heat @ Philadelphia 76ers",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_MIAPHI_book.pdf"
+    },
+    {
+      "id": "401909318",
+      "date": "2026-11-25",
+      "label": "Chicago Bulls @ Charlotte Hornets",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_CHICHA_book.pdf"
     },
     {
       "id": "401909314",

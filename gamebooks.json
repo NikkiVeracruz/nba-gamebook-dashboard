@@ -5,7 +5,7 @@
     "2026-11-25",
     "2026-11-26"
   ],
-  "updated_at": "2026-11-26T01:57:42.344700+00:00",
+  "updated_at": "2026-11-26T02:53:01.652562+00:00",
   "games": [
     {
       "id": "401909315",
@@ -38,13 +38,14 @@
       "id": "401909318",
       "date": "2026-11-25",
       "label": "Chicago Bulls @ Charlotte Hornets",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261125/20261125_CHICHA_book.pdf"
     },
     {
       "id": "401909319",
       "date": "2026-11-25",
       "label": "Cleveland Cavaliers @ New York Knicks",
-      "status": "Halftime"
+      "status": "In Progress"
     },
     {
       "id": "401909321",
@@ -63,13 +64,13 @@
       "id": "401909320",
       "date": "2026-11-25",
       "label": "Minnesota Timberwolves @ Oklahoma City Thunder",
-      "status": "Halftime"
+      "status": "In Progress"
     },
     {
       "id": "401909323",
       "date": "2026-11-25",
       "label": "Phoenix Suns @ Houston Rockets",
-      "status": "In Progress"
+      "status": "Halftime"
     },
     {
       "id": "401909324",
