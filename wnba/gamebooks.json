@@ -1,11 +1,11 @@
 {
-  "window_label": "Nov 25, 2026 – Nov 27, 2026 (ET; 3 AM rollover)",
+  "window_label": "Nov 26, 2026 – Nov 28, 2026 (ET; 3 AM rollover)",
   "window_dates": [
-    "2026-11-25",
     "2026-11-26",
-    "2026-11-27"
+    "2026-11-27",
+    "2026-11-28"
   ],
-  "updated_at": "2026-11-26T08:58:27.774474+00:00",
+  "updated_at": "2026-11-27T08:58:57.525794+00:00",
   "offseason": true,
   "games": []
 }
