@@ -5,7 +5,7 @@
     "2026-11-27",
     "2026-11-28"
   ],
-  "updated_at": "2026-11-27T08:32:33.192730+00:00",
+  "updated_at": "2026-11-28T01:10:26.112878+00:00",
   "games": [
     {
       "id": "401909330",
@@ -17,7 +17,7 @@
       "id": "401909329",
       "date": "2026-11-27",
       "label": "Brooklyn Nets @ Toronto Raptors",
-      "status": "Scheduled"
+      "status": "End of Period"
     },
     {
       "id": "401909332",
@@ -53,13 +53,13 @@
       "id": "401909326",
       "date": "2026-11-27",
       "label": "Miami Heat @ New York Knicks",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909327",
       "date": "2026-11-27",
       "label": "Milwaukee Bucks @ Detroit Pistons",
-      "status": "Scheduled"
+      "status": "End of Period"
     },
     {
       "id": "401909335",
@@ -71,7 +71,7 @@
       "id": "401909328",
       "date": "2026-11-27",
       "label": "Philadelphia 76ers @ Indiana Pacers",
-      "status": "Scheduled"
+      "status": "End of Period"
     },
     {
       "id": "401910047",
