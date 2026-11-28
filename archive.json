@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T04:15:32.313933+00:00",
+  "updated_at": "2026-11-28T05:17:33.506266+00:00",
   "games": [
     {
       "id": "401909328",
@@ -7,6 +7,13 @@
       "label": "Philadelphia 76ers @ Indiana Pacers",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_PHIIND_book.pdf"
+    },
+    {
+      "id": "401909335",
+      "date": "2026-11-27",
+      "label": "New Orleans Pelicans @ LA Clippers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_NOPLAC_book.pdf"
     },
     {
       "id": "401909327",
@@ -28,6 +35,34 @@
       "label": "Memphis Grizzlies @ Minnesota Timberwolves",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_MEMMIN_book.pdf"
+    },
+    {
+      "id": "401909333",
+      "date": "2026-11-27",
+      "label": "Los Angeles Lakers @ San Antonio Spurs",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_LALSAS_book.pdf"
+    },
+    {
+      "id": "401909336",
+      "date": "2026-11-27",
+      "label": "Golden State Warriors @ Portland Trail Blazers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_GSWPOR_book.pdf"
+    },
+    {
+      "id": "401909334",
+      "date": "2026-11-27",
+      "label": "Denver Nuggets @ Utah Jazz",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_DENUTA_book.pdf"
+    },
+    {
+      "id": "401909332",
+      "date": "2026-11-27",
+      "label": "Dallas Mavericks @ Phoenix Suns",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_DALPHX_book.pdf"
     },
     {
       "id": "401909329",
