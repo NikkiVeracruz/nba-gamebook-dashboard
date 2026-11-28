@@ -1,6 +1,34 @@
 {
-  "updated_at": "2026-11-26T05:54:37.814179+00:00",
+  "updated_at": "2026-11-28T03:15:54.648365+00:00",
   "games": [
+    {
+      "id": "401909328",
+      "date": "2026-11-27",
+      "label": "Philadelphia 76ers @ Indiana Pacers",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_PHIIND_book.pdf"
+    },
+    {
+      "id": "401909327",
+      "date": "2026-11-27",
+      "label": "Milwaukee Bucks @ Detroit Pistons",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_MILDET_book.pdf"
+    },
+    {
+      "id": "401909326",
+      "date": "2026-11-27",
+      "label": "Miami Heat @ New York Knicks",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_MIANYK_book.pdf"
+    },
+    {
+      "id": "401909329",
+      "date": "2026-11-27",
+      "label": "Brooklyn Nets @ Toronto Raptors",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_BKNTOR_book.pdf"
+    },
     {
       "id": "401909325",
       "date": "2026-11-25",

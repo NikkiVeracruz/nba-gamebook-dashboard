@@ -5,73 +5,77 @@
     "2026-11-27",
     "2026-11-28"
   ],
-  "updated_at": "2026-11-28T02:20:52.661557+00:00",
+  "updated_at": "2026-11-28T03:15:54.598701+00:00",
   "games": [
     {
       "id": "401909330",
       "date": "2026-11-27",
       "label": "Atlanta Hawks @ Boston Celtics",
-      "status": "Halftime"
+      "status": "In Progress"
     },
     {
       "id": "401909329",
       "date": "2026-11-27",
       "label": "Brooklyn Nets @ Toronto Raptors",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_BKNTOR_book.pdf"
     },
     {
       "id": "401909332",
       "date": "2026-11-27",
       "label": "Dallas Mavericks @ Phoenix Suns",
-      "status": "In Progress"
+      "status": "Halftime"
     },
     {
       "id": "401909334",
       "date": "2026-11-27",
       "label": "Denver Nuggets @ Utah Jazz",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909336",
       "date": "2026-11-27",
       "label": "Golden State Warriors @ Portland Trail Blazers",
-      "status": "Scheduled"
+      "status": "End of Period"
     },
     {
       "id": "401909333",
       "date": "2026-11-27",
       "label": "Los Angeles Lakers @ San Antonio Spurs",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909331",
       "date": "2026-11-27",
       "label": "Memphis Grizzlies @ Minnesota Timberwolves",
-      "status": "In Progress"
+      "status": "End of Period"
     },
     {
       "id": "401909326",
       "date": "2026-11-27",
       "label": "Miami Heat @ New York Knicks",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_MIANYK_book.pdf"
     },
     {
       "id": "401909327",
       "date": "2026-11-27",
       "label": "Milwaukee Bucks @ Detroit Pistons",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_MILDET_book.pdf"
     },
     {
       "id": "401909335",
       "date": "2026-11-27",
       "label": "New Orleans Pelicans @ LA Clippers",
-      "status": "Scheduled"
+      "status": "In Progress"
     },
     {
       "id": "401909328",
       "date": "2026-11-27",
       "label": "Philadelphia 76ers @ Indiana Pacers",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_PHIIND_book.pdf"
     },
     {
       "id": "401910047",
