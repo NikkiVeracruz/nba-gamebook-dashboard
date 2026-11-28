@@ -5,13 +5,14 @@
     "2026-11-27",
     "2026-11-28"
   ],
-  "updated_at": "2026-11-28T03:15:54.598701+00:00",
+  "updated_at": "2026-11-28T04:15:32.251000+00:00",
   "games": [
     {
       "id": "401909330",
       "date": "2026-11-27",
       "label": "Atlanta Hawks @ Boston Celtics",
-      "status": "In Progress"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_ATLBOS_book.pdf"
     },
     {
       "id": "401909329",
@@ -24,7 +25,7 @@
       "id": "401909332",
       "date": "2026-11-27",
       "label": "Dallas Mavericks @ Phoenix Suns",
-      "status": "Halftime"
+      "status": "In Progress"
     },
     {
       "id": "401909334",
@@ -36,7 +37,7 @@
       "id": "401909336",
       "date": "2026-11-27",
       "label": "Golden State Warriors @ Portland Trail Blazers",
-      "status": "End of Period"
+      "status": "In Progress"
     },
     {
       "id": "401909333",
@@ -48,7 +49,8 @@
       "id": "401909331",
       "date": "2026-11-27",
       "label": "Memphis Grizzlies @ Minnesota Timberwolves",
-      "status": "End of Period"
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_MEMMIN_book.pdf"
     },
     {
       "id": "401909326",

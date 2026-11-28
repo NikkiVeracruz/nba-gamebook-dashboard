@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-28T03:15:54.648365+00:00",
+  "updated_at": "2026-11-28T04:15:32.313933+00:00",
   "games": [
     {
       "id": "401909328",
@@ -23,11 +23,25 @@
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_MIANYK_book.pdf"
     },
     {
+      "id": "401909331",
+      "date": "2026-11-27",
+      "label": "Memphis Grizzlies @ Minnesota Timberwolves",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_MEMMIN_book.pdf"
+    },
+    {
       "id": "401909329",
       "date": "2026-11-27",
       "label": "Brooklyn Nets @ Toronto Raptors",
       "status": "Final",
       "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_BKNTOR_book.pdf"
+    },
+    {
+      "id": "401909330",
+      "date": "2026-11-27",
+      "label": "Atlanta Hawks @ Boston Celtics",
+      "status": "Final",
+      "pdf_url": "https://statsdmz.nba.com/pdfs/20261127/20261127_ATLBOS_book.pdf"
     },
     {
       "id": "401909325",
