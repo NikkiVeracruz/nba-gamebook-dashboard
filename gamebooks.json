@@ -1,11 +1,11 @@
 {
-  "window_label": "Nov 26, 2026 – Nov 28, 2026 (ET; 3 AM rollover)",
+  "window_label": "Nov 27, 2026 – Nov 29, 2026 (ET; 3 AM rollover)",
   "window_dates": [
-    "2026-11-26",
     "2026-11-27",
-    "2026-11-28"
+    "2026-11-28",
+    "2026-11-29"
   ],
-  "updated_at": "2026-11-28T05:17:33.453892+00:00",
+  "updated_at": "2026-11-28T08:31:25.880413+00:00",
   "games": [
     {
       "id": "401909330",
@@ -112,6 +112,66 @@
       "id": "401910050",
       "date": "2026-11-28",
       "label": "Philadelphia 76ers @ Houston Rockets",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910056",
+      "date": "2026-11-29",
+      "label": "Atlanta Hawks @ New York Knicks",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910052",
+      "date": "2026-11-29",
+      "label": "Boston Celtics @ San Antonio Spurs",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910057",
+      "date": "2026-11-29",
+      "label": "Denver Nuggets @ Toronto Raptors",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910059",
+      "date": "2026-11-29",
+      "label": "LA Clippers @ Golden State Warriors",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910051",
+      "date": "2026-11-29",
+      "label": "Los Angeles Lakers @ Memphis Grizzlies",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910054",
+      "date": "2026-11-29",
+      "label": "Miami Heat @ Cleveland Cavaliers",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910060",
+      "date": "2026-11-29",
+      "label": "Minnesota Timberwolves @ Sacramento Kings",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910058",
+      "date": "2026-11-29",
+      "label": "New Orleans Pelicans @ Portland Trail Blazers",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910055",
+      "date": "2026-11-29",
+      "label": "Orlando Magic @ Detroit Pistons",
+      "status": "Scheduled"
+    },
+    {
+      "id": "401910053",
+      "date": "2026-11-29",
+      "label": "Phoenix Suns @ Utah Jazz",
       "status": "Scheduled"
     }
   ]
